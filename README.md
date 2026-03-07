@@ -53,9 +53,9 @@ Mobile fuel delivery platform — 6 portals, 9 user roles, real-time fleet track
 </td>
 <td width="50%">
 
-**[Portfolio](https://github.com/dbhavery/portfolio)** — donhavery.dev
+**[Portfolio](https://github.com/dbhavery/portfolio)** — Project Showcase
 
-Personal site showcasing projects, architecture deep-dives, and case studies. Built with Next.js and a custom neumorphic design system.
+Personal portfolio site with project cards, tech stack overview, and contact info. Built with a custom neumorphic dark design system.
 
 </td>
 </tr>
