@@ -86,9 +86,9 @@ Bridge local Ollama models, embeddings, vision, and vector memory to Claude Code
 </td>
 <td width="50%">
 
-**[Cortex](https://github.com/dbhavery/cortex)** — Media Cataloger
+**[Dispatch](https://github.com/dbhavery/dispatch)** — Fleet Management SaaS
 
-Media cataloging with BLIP captioning, InsightFace clustering, Google Drive sync, review workflows.
+Multi-tenant platform with role-based portals, real-time dispatch, franchise management, market simulation engine, and financial analytics.
 
 </td>
 </tr>
