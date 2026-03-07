@@ -16,30 +16,62 @@ Currently open to opportunities in AI engineering, full-stack development, and s
 
 **[Vox](https://github.com/dbhavery/vox)** — AI Voice Assistant Framework
 
-Multi-agent orchestration with 7 specialized agents, 5-model LLM routing, real-time voice pipeline (449ms p50 latency), photorealistic avatar animation. Python, asyncio, WebSocket. **700+ tests.**
+Multi-agent orchestration with 7 specialized agents, 5-model LLM routing, real-time voice pipeline, photorealistic avatar animation. **135K+ lines, 700+ tests.**
 
 </td>
 <td width="50%">
 
-**[Cortex](https://github.com/dbhavery/cortex)** — AI Media Cataloger
+**[promptlab](https://github.com/dbhavery/promptlab)** — Prompt Testing Framework
 
-Autonomous media indexing with BLIP captioning, InsightFace face clustering, Google Photos/Drive sync, semantic search. FastAPI + React. **5,700+ items processed.**
+pytest for LLM prompts. Define tests as YAML, run against multiple models, score results, catch regressions in CI. **pip-installable CLI.**
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-**[CodeRev](https://github.com/dbhavery/coderev)** — AI Code Review Bot
+**[fineforge](https://github.com/dbhavery/fineforge)** — LoRA Fine-Tuning Pipeline
 
-GitHub App that uses Claude to review PRs — finds bugs, security issues, suggests improvements. Dashboard with review metrics. FastAPI + React + Claude API.
+End-to-end QLoRA fine-tuning on consumer GPUs. Dataset curation, training, evaluation, GGUF export to Ollama. **48 tests.**
 
 </td>
 <td width="50%">
 
-**[Ralph for Claude Code](https://github.com/dbhavery/ralph-claude-code)** — Autonomous Dev Loop
+**[CodeRev](https://github.com/dbhavery/coderev)** — AI Code Review Bot
 
-Intelligent exit detection, circuit breaker patterns, dual-condition gates, session continuity. **566 passing tests.** Featured in [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code).
+GitHub App using Claude to review PRs — finds bugs, security issues, posts structured comments. Dashboard API with metrics. **15 tests.**
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**[Cortex](https://github.com/dbhavery/cortex)** — AI Media Cataloger
+
+BLIP captioning, InsightFace face clustering, Google Photos/Drive sync, semantic search. FastAPI + React. **5,700+ items processed.**
+
+</td>
+<td width="50%">
+
+**[mcplex](https://github.com/dbhavery/mcplex)** — MCP Server for Local AI
+
+Bridge local Ollama models, embeddings, vision, and vector memory to Claude Code and other MCP clients. **9 tools, 24 tests.**
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**[ragtest](https://github.com/dbhavery/ragtest)** — RAG Evaluation Suite
+
+Benchmark retrieval accuracy and generation quality. Recall, precision, MRR, NDCG, faithfulness scoring. **pip-installable CLI, 54 tests.**
+
+</td>
+<td width="50%">
+
+**[Ralph](https://github.com/dbhavery/ralph-claude-code)** — Autonomous Dev Loop
+
+Autonomous Claude Code loop with intelligent exit detection, circuit breakers, dual-condition gates. **566 tests.** In [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code).
 
 </td>
 </tr>
@@ -48,14 +80,14 @@ Intelligent exit detection, circuit breaker patterns, dual-condition gates, sess
 
 **[StaFull Platform](https://github.com/dbhavery/stafull-platform)** — Enterprise SaaS
 
-Mobile fuel delivery platform — 6 portals, 9 user roles, real-time fleet tracking, 255-input simulation engine. React, Node.js, PostgreSQL, Socket.io. **Deployed on Railway + Vercel.**
+Mobile fuel delivery — 6 portals, 9 user roles, real-time fleet tracking, 255-input simulation engine. 11 repos, React + Node.js + PostgreSQL.
 
 </td>
 <td width="50%">
 
 **[Portfolio](https://github.com/dbhavery/portfolio)** — Project Showcase
 
-Personal portfolio site with project cards, tech stack overview, and contact info. Built with a custom neumorphic dark design system.
+Personal portfolio site with project cards, tech stack overview, and contact info. Neumorphic dark design system.
 
 </td>
 </tr>
@@ -65,7 +97,7 @@ Personal portfolio site with project cards, tech stack overview, and contact inf
 
 ### Tech Stack
 
-**AI/ML** &nbsp; `Claude` `Gemini` `Ollama` `PyTorch` `HuggingFace` `ChromaDB` `RAG` `LangGraph`
+**AI/ML** &nbsp; `Claude` `Gemini` `Ollama` `PyTorch` `HuggingFace` `ChromaDB` `RAG` `LoRA/QLoRA` `MCP`
 
 **Backend** &nbsp; `Python` `FastAPI` `asyncio` `Node.js` `Express` `WebSocket` `REST APIs`
 
