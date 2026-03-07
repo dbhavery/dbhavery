@@ -21,13 +21,36 @@ Modular monorepo: LLM gateway with routing/caching/circuit breaker, HNSW vector 
 </td>
 <td width="50%">
 
+**[Vaultwise](https://github.com/dbhavery/vaultwise)** — Knowledge Management Platform
+
+Ingest company docs, TF-IDF vector search, AI Q&A with source citations, auto-generated training articles and quizzes, knowledge gap analytics. **51 tests.**
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**[Herald](https://github.com/dbhavery/herald)** — Customer Operations Stack
+
+AI chatbot with knowledge search, support rep copilot, customer health scoring with churn prediction, ticket auto-categorization, onboarding flows, sentiment analytics. **49 tests.**
+
+</td>
+<td width="50%">
+
+**[Sentinel](https://github.com/dbhavery/sentinel)** — Compliance Autopilot
+
+SOC 2, GDPR, HIPAA gap analysis with 37 real requirements. Document scanning, AI policy generation, drift monitoring, alert system, audit-ready reports. **50 tests.**
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
 **[Vox](https://github.com/dbhavery/vox)** — AI Voice Assistant Framework
 
 Multi-agent orchestration with 7 specialized agents, 5-model LLM routing, real-time voice pipeline, photorealistic avatar animation. **135K+ lines, 700+ tests.**
 
 </td>
-</tr>
-<tr>
 <td width="50%">
 
 **[promptlab](https://github.com/dbhavery/promptlab)** — Prompt Testing Framework
@@ -35,6 +58,8 @@ Multi-agent orchestration with 7 specialized agents, 5-model LLM routing, real-t
 pytest for LLM prompts. Define tests as YAML, run against multiple models, score results, catch regressions in CI. **pip-installable CLI, 55 tests.**
 
 </td>
+</tr>
+<tr>
 <td width="50%">
 
 **[fineforge](https://github.com/dbhavery/fineforge)** — LoRA Fine-Tuning Pipeline
@@ -42,8 +67,6 @@ pytest for LLM prompts. Define tests as YAML, run against multiple models, score
 End-to-end QLoRA fine-tuning on consumer GPUs. Dataset curation, training, evaluation, GGUF export to Ollama. **48 tests.**
 
 </td>
-</tr>
-<tr>
 <td width="50%">
 
 **[ragtest](https://github.com/dbhavery/ragtest)** — RAG Evaluation Suite
@@ -51,20 +74,13 @@ End-to-end QLoRA fine-tuning on consumer GPUs. Dataset curation, training, evalu
 Benchmark retrieval accuracy and generation quality. Recall, precision, MRR, NDCG, faithfulness scoring. **pip-installable CLI, 54 tests.**
 
 </td>
+</tr>
+<tr>
 <td width="50%">
 
 **[mcplex](https://github.com/dbhavery/mcplex)** — MCP Server for Local AI
 
 Bridge local Ollama models, embeddings, vision, and vector memory to Claude Code and other MCP clients. **9 tools, 24 tests.**
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-**[CodeRev](https://github.com/dbhavery/coderev)** — AI Code Review Bot
-
-GitHub App using Claude to review PRs — finds bugs, security issues, posts structured comments. Dashboard API with metrics. **15 tests.**
 
 </td>
 <td width="50%">
@@ -75,29 +91,13 @@ Autonomous Claude Code loop with intelligent exit detection, circuit breakers, d
 
 </td>
 </tr>
-<tr>
-<td width="50%">
-
-**[Cortex](https://github.com/dbhavery/cortex)** — AI Media Cataloger
-
-BLIP captioning, InsightFace face clustering, Google Photos/Drive sync, semantic search. FastAPI + React. **5,700+ items processed.**
-
-</td>
-<td width="50%">
-
-**[StaFull Platform](https://github.com/dbhavery/stafull-platform)** — Enterprise SaaS
-
-Mobile fuel delivery — 6 portals, 9 user roles, real-time fleet tracking, 255-input simulation engine. React + Node.js + PostgreSQL.
-
-</td>
-</tr>
 </table>
 
 ---
 
 ### Tech Stack
 
-**AI/ML** &nbsp; `Claude` `Gemini` `Ollama` `PyTorch` `HuggingFace` `ChromaDB` `HNSW` `RAG` `LoRA/QLoRA` `MCP`
+**AI/ML** &nbsp; `Claude` `Gemini` `Ollama` `PyTorch` `HuggingFace` `ChromaDB` `HNSW` `TF-IDF` `RAG` `LoRA/QLoRA` `MCP`
 
 **Backend** &nbsp; `Python` `FastAPI` `asyncio` `Node.js` `Express` `WebSocket` `REST APIs`
 
