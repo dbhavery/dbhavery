@@ -24,7 +24,7 @@ Three decades of building logistics operations that can't go down taught me that
 
 **[Isabelle Kunstig](https://github.com/dbhavery/Isabelle_Kunstig)** — AI Assistant
 
-12-module architecture — voice I/O, multi-LLM routing (Claude/Gemini/Ollama), persistent memory with hot/warm/cold tiers, animated avatar, desktop GUI, tool framework, and agent task system. *(Private — architecture docs available on request)*
+12-module architecture — voice I/O, multi-LLM routing (Claude/Gemini/Ollama), persistent memory with hot/warm/cold tiers, animated avatar, desktop GUI, tool framework, and agent task system.
 
 </td>
 </tr>
