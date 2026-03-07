@@ -1,8 +1,8 @@
 # Donald B. Havery
 
-**AI Systems Engineer | Full-Stack Developer**
+**AI Orchestration Engineer | Full-Stack Developer**
 
-I build production-grade AI systems — from real-time voice assistants with multi-agent orchestration to enterprise SaaS platforms with 6 role-based portals. 30 years and 3.5M+ miles in transportation operations built the systems thinking; 930+ commits and 170K+ lines of code turned it into software.
+I build production-grade AI systems — from multi-agent orchestration and LLM infrastructure to enterprise SaaS platforms. 30 years in transportation operations built the systems thinking; 60K+ lines of code across 15 repositories turned it into software.
 
 Currently open to opportunities in AI engineering, full-stack development, and systems architecture.
 
@@ -16,14 +16,14 @@ Currently open to opportunities in AI engineering, full-stack development, and s
 
 **[Citadel](https://github.com/dbhavery/citadel)** — AI Operations Platform
 
-Modular monorepo: LLM gateway with routing/caching/circuit breaker, HNSW vector search from scratch, ReAct agent runtime, document ingestion, LLM observability + cost tracking. **6 packages, 11K+ lines, 100 tests.**
+Modular monorepo: LLM gateway with routing/caching/circuit breaker, HNSW vector search from scratch, ReAct agent runtime, document ingestion, LLM observability + cost tracking. **6 packages, 10K+ lines, 100 tests.**
 
 </td>
 <td width="50%">
 
-**[Vaultwise](https://github.com/dbhavery/vaultwise)** — Knowledge Management Platform
+**[Isabelle Kunstig](https://github.com/dbhavery/Isabelle_Kunstig)** — AI Assistant
 
-Ingest company docs, TF-IDF vector search, AI Q&A with source citations, auto-generated training articles and quizzes, knowledge gap analytics. **51 tests.**
+Modular AI assistant with 5-tier LLM routing (Claude/Gemini/Ollama), tiered memory system, desktop GUI, tool framework, and agent task system. **25 tests, 21K+ lines.**
 
 </td>
 </tr>
@@ -46,9 +46,9 @@ SOC 2, GDPR, HIPAA gap analysis with 37 real requirements. Document scanning, AI
 <tr>
 <td width="50%">
 
-**[Vox](https://github.com/dbhavery/vox)** — AI Voice Assistant Framework
+**[Vaultwise](https://github.com/dbhavery/vaultwise)** — Knowledge Management Platform
 
-Multi-agent orchestration with 7 specialized agents, 5-model LLM routing, real-time voice pipeline, photorealistic avatar animation. **135K+ lines, 700+ tests.**
+Ingest company docs, TF-IDF vector search, AI Q&A with source citations, auto-generated training articles and quizzes, knowledge gap analytics. **51 tests.**
 
 </td>
 <td width="50%">
@@ -85,9 +85,9 @@ Bridge local Ollama models, embeddings, vision, and vector memory to Claude Code
 </td>
 <td width="50%">
 
-**[Autoloop](https://github.com/dbhavery/autoloop)** — Autonomous Dev Loop
+**[Cortex](https://github.com/dbhavery/cortex)** — Media Cataloger
 
-Autonomous AI development loop with intelligent exit detection, circuit breakers, dual-condition gates. **566 tests.** In [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code).
+Media cataloging with BLIP captioning, InsightFace clustering, Google Drive sync, review workflows. **28 tests.**
 
 </td>
 </tr>
@@ -126,4 +126,4 @@ Autonomous AI development loop with intelligent exit detection, circuit breakers
 
 ### Contact
 
-**Email:** dbhavery@gmail.com &nbsp;|&nbsp; **GitHub:** [github.com/dbhavery](https://github.com/dbhavery) &nbsp;|&nbsp; **Resume:** [Download PDF](https://github.com/dbhavery/dbhavery/raw/main/Donald_Havery_Resume.pdf)
+**Email:** dbhavery@gmail.com &nbsp;|&nbsp; **GitHub:** [github.com/dbhavery](https://github.com/dbhavery) &nbsp;|&nbsp; **LinkedIn:** [linkedin.com/in/dbhavery](https://linkedin.com/in/dbhavery) &nbsp;|&nbsp; **Resume:** [Download PDF](https://github.com/dbhavery/dbhavery/raw/master/Donald_Havery_Resume.pdf)
