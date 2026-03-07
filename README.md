@@ -85,9 +85,9 @@ Bridge local Ollama models, embeddings, vision, and vector memory to Claude Code
 </td>
 <td width="50%">
 
-**[Ralph](https://github.com/dbhavery/ralph-claude-code)** — Autonomous Dev Loop
+**[Autoloop](https://github.com/dbhavery/autoloop)** — Autonomous Dev Loop
 
-Autonomous Claude Code loop with intelligent exit detection, circuit breakers, dual-condition gates. **566 tests.** In [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code).
+Autonomous AI development loop with intelligent exit detection, circuit breakers, dual-condition gates. **566 tests.** In [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code).
 
 </td>
 </tr>
