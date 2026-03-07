@@ -1,4 +1,4 @@
-# Donald Havery
+# Donald B. Havery
 
 **AI Systems Engineer | Full-Stack Developer**
 
