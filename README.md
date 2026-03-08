@@ -91,6 +91,17 @@ Multi-tenant platform with role-based portals, real-time dispatch, franchise man
 
 </td>
 </tr>
+<tr>
+<td width="50%">
+
+**[Custom-Image-Generator-and-Editor](https://github.com/dbhavery/Custom-Image-Generator-and-Editor)** — CIGE
+
+Local AI image generation and editing — FLUX.1-dev + RealVisXL Lightning on consumer GPUs. txt2img, img2img, inpainting, traditional adjustments. $0 per image.
+
+</td>
+<td width="50%">
+</td>
+</tr>
 </table>
 
 ---
