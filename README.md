@@ -111,6 +111,15 @@ Multi-tenant platform with role-based portals, real-time dispatch, franchise man
 
 ---
 
+### Certifications (In Progress)
+
+- Google Cloud Professional Machine Learning Engineer
+- AWS Certified Machine Learning Engineer -- Associate
+- DeepLearning.AI Generative AI with Large Language Models
+- Google Cloud Generative AI Leader
+
+---
+
 ### GitHub Stats
 
 <p align="center">
