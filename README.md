@@ -2,8 +2,7 @@
 
 **AI Systems Engineer**
 
-<!-- TODO: Replace placeholder URL once donhavery.dev CNAME is configured on Vercel -->
-[Portfolio](https://donhavery.dev) &nbsp;|&nbsp; [GitHub](https://github.com/dbhavery) &nbsp;|&nbsp; [LinkedIn](https://www.linkedin.com/in/dbhavery) &nbsp;|&nbsp; [Resume (PDF)](https://github.com/dbhavery/dbhavery/raw/master/Donald_Havery_Resume.pdf)
+[Portfolio](https://dbhavery.dev) &nbsp;|&nbsp; [GitHub](https://github.com/dbhavery) &nbsp;|&nbsp; [LinkedIn](https://www.linkedin.com/in/dbhavery) &nbsp;|&nbsp; [Resume (PDF)](https://github.com/dbhavery/dbhavery/raw/master/Donald_Havery_Resume.pdf)
 
 Three decades of building logistics operations that can't go down taught me that AI infrastructure needs the same rigor — reliability, observability, graceful degradation. I bring 30 years of systems thinking to AI engineering.
 
