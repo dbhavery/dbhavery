@@ -14,80 +14,64 @@ Three decades of building logistics operations that can't go down taught me that
 <tr>
 <td width="50%">
 
+**[Aether](https://github.com/dbhavery/aether)** — AI Assistant Framework
+
+12-module architecture — voice I/O (449ms latency), multi-LLM routing (Claude/Gemini/Ollama), persistent memory with hybrid search, animated avatar, desktop GUI, 32 tools, 509 skills, 728+ tests.
+
+</td>
+<td width="50%">
+
 **[Citadel](https://github.com/dbhavery/citadel)** — AI Operations Platform
 
 6-package monorepo — LLM gateway with routing/caching/circuit breaker, HNSW vector search from scratch, ReAct agent runtime, document ingestion pipeline, LLM observability + cost tracking.
 
 </td>
-<td width="50%">
-
-**[Aether](https://github.com/dbhavery/aether)** — AI Assistant Framework
-
-12-module architecture — voice I/O, multi-LLM routing (Claude/Gemini/Ollama), persistent memory with hybrid search, animated avatar, desktop GUI, tool framework, and agent task system.
-
-</td>
 </tr>
 <tr>
 <td width="50%">
 
-**[Herald](https://github.com/dbhavery/herald)** — Customer Operations Stack
+**[Cortex](https://github.com/dbhavery/cortex)** — AI Media Cataloger
 
-AI-powered customer ops — chatbot with knowledge search, support rep copilot, customer health scoring with churn prediction, ticket auto-categorization, onboarding flows, sentiment analytics.
-
-</td>
-<td width="50%">
-
-**[Sentinel](https://github.com/dbhavery/sentinel)** — Compliance Autopilot
-
-SOC 2, GDPR, HIPAA gap analysis against 37 real regulatory requirements. Document scanning, AI policy generation, drift monitoring, alert system, audit-ready reports.
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-**[Vaultwise](https://github.com/dbhavery/vaultwise)** — Knowledge Management Platform
-
-Document ingestion, TF-IDF vector search, AI Q&A with source citations, auto-generated training articles and quizzes, knowledge gap analytics.
-
-</td>
-<td width="50%">
-
-**[promptlab](https://github.com/dbhavery/promptlab)** — Prompt Testing Framework
-
-pytest for LLM prompts. Define tests as YAML, run against multiple models, score results, catch regressions in CI. pip-installable CLI.
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-**[fineforge](https://github.com/dbhavery/fineforge)** — LoRA Fine-Tuning Pipeline
-
-End-to-end QLoRA fine-tuning on consumer GPUs. Dataset curation, training, evaluation, GGUF export to Ollama.
-
-</td>
-<td width="50%">
-
-**[ragtest](https://github.com/dbhavery/ragtest)** — RAG Evaluation Suite
-
-Benchmark retrieval accuracy and generation quality. Recall, precision, MRR, NDCG, faithfulness scoring. pip-installable CLI.
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-**[mcplex](https://github.com/dbhavery/mcplex)** — MCP Server for Local AI
-
-Bridge local Ollama models, embeddings, vision, and vector memory to Claude Code and other MCP clients. 9 tools exposed via MCP.
+Autonomous media indexing — BLIP captioning, InsightFace face recognition, Google Photos/Drive sync. 28 file types, 164 tests. Drop a file in, searchable in 60 seconds.
 
 </td>
 <td width="50%">
 
 **[Dispatch](https://github.com/dbhavery/dispatch)** — Fleet Management SaaS
 
-Multi-tenant platform with role-based portals, real-time dispatch, franchise management, market simulation engine, and financial analytics.
+Multi-tenant platform — 6 role-based portals, 9 access tiers, real-time fleet tracking, 255-input simulation engine, franchise management, financial analytics. 11 repos, Railway + Vercel.
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**[Autoloop](https://github.com/dbhavery/autoloop)** — Autonomous Dev Loop
+
+Hands-free Claude Code task execution — dual-condition exit gate, circuit breaker pattern, three-layer API limit detection. 573 BATS tests. Zero deps beyond Bash + jq.
+
+</td>
+<td width="50%">
+
+**[Herald](https://github.com/dbhavery/herald)** — Customer Operations Stack
+
+AI-powered customer ops — citation-backed responses, TF-IDF sentiment scoring, churn prediction, ticket auto-categorization, customer health scoring. 95 tests, 34 endpoints.
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**[Sentinel](https://github.com/dbhavery/sentinel)** — Compliance Autopilot
+
+SOC 2, GDPR, HIPAA gap analysis against 62 real regulatory requirements. Document scanning, AI policy generation, drift monitoring, alert system, audit-ready reports. 50 tests.
+
+</td>
+<td width="50%">
+
+**[Vaultwise](https://github.com/dbhavery/vaultwise)** — Knowledge Management Platform
+
+TF-IDF search from scratch (zero ML deps), document ingestion, AI Q&A with source citations, auto-generated training articles and quizzes. 133 tests, 20 endpoints.
 
 </td>
 </tr>
@@ -96,10 +80,15 @@ Multi-tenant platform with role-based portals, real-time dispatch, franchise man
 
 **[Custom-Image-Generator-and-Editor](https://github.com/dbhavery/Custom-Image-Generator-and-Editor)** — CIGE
 
-Local AI image generation and editing — FLUX.1-dev + RealVisXL Lightning on consumer GPUs. txt2img, img2img, inpainting, traditional adjustments. $0 per image.
+Local AI image generation — FLUX.1-dev + RealVisXL Lightning on consumer GPUs. txt2img, img2img, inpainting. $0 per image. 127 tests.
 
 </td>
 <td width="50%">
+
+**AI Dev Tools** — [promptlab](https://github.com/dbhavery/promptlab) / [ragtest](https://github.com/dbhavery/ragtest) / [fineforge](https://github.com/dbhavery/fineforge) / [mcplex](https://github.com/dbhavery/mcplex) / [coderev](https://github.com/dbhavery/coderev)
+
+Prompt testing, RAG evaluation, LoRA fine-tuning, MCP server for local AI, AI code review GitHub App. 196 tests combined.
+
 </td>
 </tr>
 </table>
