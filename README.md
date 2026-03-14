@@ -37,9 +37,9 @@ Autonomous media indexing — BLIP captioning, InsightFace face recognition, Goo
 </td>
 <td width="50%">
 
-**[Dispatch](https://github.com/dbhavery/dispatch)** — Fleet Management SaaS
+**[FuelFleet](https://github.com/dbhavery/fuelfleet-platform)** — Fleet Management SaaS
 
-Multi-tenant platform — 6 role-based portals, 9 access tiers, real-time fleet tracking, 255-input simulation engine, franchise management, financial analytics. 11 repos, Railway + Vercel.
+Enterprise SaaS platform for mobile fuel delivery — 6 role-based portals, 9 access tiers, real-time fleet tracking, 255-input simulation engine. 12 repositories (all public), deployed on Railway + Vercel.
 
 </td>
 </tr>
