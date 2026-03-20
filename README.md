@@ -1,6 +1,6 @@
 # Donald B. Havery
 
-**AI Systems Engineer**
+**AI Systems Engineer** &nbsp;·&nbsp; 37 repos &nbsp;·&nbsp; 888K+ lines &nbsp;·&nbsp; 2,000+ tests
 
 [Portfolio](https://dbhavery.dev) &nbsp;|&nbsp; [GitHub](https://github.com/dbhavery) &nbsp;|&nbsp; [LinkedIn](https://www.linkedin.com/in/dbhavery) &nbsp;|&nbsp; [Resume (PDF)](https://github.com/dbhavery/dbhavery/raw/master/Donald_Havery_Resume.pdf)
 
@@ -10,88 +10,79 @@ Three decades of building logistics operations that can't go down taught me that
 
 ### What I Build
 
-<table>
-<tr>
-<td width="50%">
+**[Aether](https://github.com/dbhavery/aether)** — AI Voice Assistant Framework
 
-**[Aether](https://github.com/dbhavery/aether)** — AI Assistant Framework
+AI voice assistant that responds in 449ms, routes 70% of queries locally for $0, and remembers every conversation.
 
-12-module architecture — voice I/O (449ms latency), multi-LLM routing (Claude/Gemini/Ollama), persistent memory with hybrid search, animated avatar, desktop GUI, 32 tools, 509 skills, 728+ tests.
+`Python` `PyTorch` `Whisper` `Claude` `Gemini` `Ollama` `ChromaDB` `PySide6` `WebSocket`
 
-</td>
-<td width="50%">
+---
 
 **[Citadel](https://github.com/dbhavery/citadel)** — AI Operations Platform
 
-6-package monorepo — LLM gateway with routing/caching/circuit breaker, HNSW vector search from scratch, ReAct agent runtime, document ingestion pipeline, LLM observability + cost tracking.
+AI ops platform that cuts vector search costs to $0 and prevents LLM outages from crashing your app.
 
-</td>
-</tr>
-<tr>
-<td width="50%">
+`Python` `FastAPI` `HNSW` `NumPy` `asyncio` `Claude` `Gemini` `Ollama`
 
-**[Cortex](https://github.com/dbhavery/cortex)** — AI Media Cataloger
+---
 
-Autonomous media indexing — BLIP captioning, InsightFace face recognition, Google Photos/Drive sync. 28 file types, 164 tests. Drop a file in, searchable in 60 seconds.
+**[FuelFleet](https://github.com/dbhavery/fuelfleet-platform)** — Enterprise Fleet Management SaaS *(private showcase)*
 
-</td>
-<td width="50%">
+Enterprise SaaS for mobile fuel delivery with 6 role-based portals, real-time fleet tracking, and financial modeling.
 
-**[FuelFleet](https://github.com/dbhavery/fuelfleet-platform)** — Fleet Management SaaS
+`React` `TypeScript` `Node.js` `Express` `Prisma` `Socket.IO` `PostgreSQL` `Railway` `Vercel`
 
-Enterprise SaaS platform for mobile fuel delivery — 6 role-based portals, 9 access tiers, real-time fleet tracking, 255-input simulation engine. 12 repositories (all public), deployed on Railway + Vercel.
+---
 
-</td>
-</tr>
-<tr>
-<td width="50%">
+**[Herald](https://github.com/dbhavery/herald)** — Customer Operations Platform
 
-**[Autoloop](https://github.com/dbhavery/autoloop)** — Autonomous Dev Loop
+AI-powered customer support that responds in seconds with citations, tracks sentiment, and predicts churn.
 
-Hands-free Claude Code task execution — dual-condition exit gate, circuit breaker pattern, three-layer API limit detection. 573 BATS tests. Zero deps beyond Bash + jq.
+`Python` `FastAPI` `TF-IDF` `SQLite` `Claude` `Ollama`
 
-</td>
-<td width="50%">
-
-**[Herald](https://github.com/dbhavery/herald)** — Customer Operations Stack
-
-AI-powered customer ops — citation-backed responses, TF-IDF sentiment scoring, churn prediction, ticket auto-categorization, customer health scoring. 95 tests, 34 endpoints.
-
-</td>
-</tr>
-<tr>
-<td width="50%">
+---
 
 **[Sentinel](https://github.com/dbhavery/sentinel)** — Compliance Autopilot
 
-SOC 2, GDPR, HIPAA gap analysis against 62 real regulatory requirements. Document scanning, AI policy generation, drift monitoring, alert system, audit-ready reports. 50 tests.
+Automated compliance scanner that does SOC 2, GDPR, and HIPAA gap analysis in seconds instead of weeks.
 
-</td>
-<td width="50%">
+`Python` `FastAPI` `SQLite` `Trigram Matching`
+
+---
 
 **[Vaultwise](https://github.com/dbhavery/vaultwise)** — Knowledge Management Platform
 
-TF-IDF search from scratch (zero ML deps), document ingestion, AI Q&A with source citations, auto-generated training articles and quizzes. 133 tests, 20 endpoints.
+Knowledge base with search built from scratch — no ML libraries, pure Python math, AI-powered Q&A with source citations.
 
-</td>
-</tr>
-<tr>
-<td width="50%">
+`Python` `FastAPI` `TF-IDF` `SQLite` `Claude` `Ollama`
 
-**[Custom-Image-Generator-and-Editor](https://github.com/dbhavery/Custom-Image-Generator-and-Editor)** — CIGE
+---
 
-Local AI image generation — FLUX.1-dev + RealVisXL Lightning on consumer GPUs. txt2img, img2img, inpainting. $0 per image. 127 tests.
+**[CIGE](https://github.com/dbhavery/Custom-Image-Generator-and-Editor)** — Custom Image Generator & Editor *(private)*
 
-</td>
-<td width="50%">
+Local AI image generation that costs $0 per image, runs on your own GPU, and keeps your prompts private.
 
-**AI Dev Tools** — [promptlab](https://github.com/dbhavery/promptlab) / [ragtest](https://github.com/dbhavery/ragtest) / [fineforge](https://github.com/dbhavery/fineforge) / [mcplex](https://github.com/dbhavery/mcplex) / [coderev](https://github.com/dbhavery/coderev)
+`Python` `PySide6` `diffusers` `FLUX.1-dev` `RealVisXL` `CUDA`
 
-Prompt testing, RAG evaluation, LoRA fine-tuning, MCP server for local AI, AI code review GitHub App. 196 tests combined.
+---
 
-</td>
-</tr>
-</table>
+**[Cortex](https://github.com/dbhavery/cortex)** — AI Media Cataloger
+
+AI media cataloger — BLIP captioning, InsightFace face clustering, Google Photos sync, semantic search.
+
+`Python` `FastAPI` `React` `BLIP` `InsightFace` `ChromaDB`
+
+---
+
+**AI Dev Tools** — Five purpose-built tools for testing prompts, evaluating RAG, fine-tuning models, bridging local AI to Claude, and automating code review.
+
+- **[PromptLab](https://github.com/dbhavery/promptlab)** — Test LLM prompts across Claude, Gemini, and Ollama simultaneously — like pytest for AI.
+- **[RagTest](https://github.com/dbhavery/ragtest)** — Evaluate RAG pipeline quality — separate retrieval and generation metrics, deterministic scoring.
+- **[FineForge](https://github.com/dbhavery/fineforge)** — Fine-tune language models on consumer GPUs for $0 — QLoRA, 7B models on 8GB VRAM.
+- **[McPlex](https://github.com/dbhavery/mcplex)** — MCP server bridging local Ollama models to Claude Code — 9 tools, zero cloud dependency.
+- **[CodeRev](https://github.com/dbhavery/coderev)** — AI code review GitHub App — Claude reviews PRs with severity classification and quality scoring.
+
+`Python` `QLoRA` `MCP` `Ollama` `GitHub Apps` `YAML` `GGUF`
 
 ---
 
