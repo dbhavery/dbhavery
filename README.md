@@ -1,113 +1,88 @@
 # Donald B. Havery
 
-**AI Systems Engineer** &nbsp;·&nbsp; 37 repos &nbsp;·&nbsp; 888K+ lines &nbsp;·&nbsp; 2,000+ tests
+**AI Systems Engineer** &nbsp;·&nbsp; 6 Production Projects &nbsp;·&nbsp; 679+ Automated Tests
 
-[Portfolio](https://dbhavery.dev) &nbsp;|&nbsp; [GitHub](https://github.com/dbhavery) &nbsp;|&nbsp; [LinkedIn](https://www.linkedin.com/in/dbhavery) &nbsp;|&nbsp; [Resume (PDF)](https://github.com/dbhavery/dbhavery/raw/master/Donald_Havery_Resume.pdf)
+[Portfolio](https://dbhavery.dev) &nbsp;|&nbsp; [LinkedIn](https://www.linkedin.com/in/dbhavery)
 
-Three decades of building logistics operations that can't go down taught me that AI infrastructure needs the same rigor — reliability, observability, graceful degradation. I bring 30 years of systems thinking to AI engineering.
+I design, build, operate, and manage production AI systems on local GPU infrastructure. I specify intent to machines with surgical precision, evaluate every output as if it has my name on it, decompose work into multi-agent systems, and diagnose failure patterns at root.
 
 ---
 
 ### What I Build
 
-**[Aether](https://github.com/dbhavery/aether)** — AI Voice Assistant Framework
+**Aether** — Conversational AI Assistant
 
-AI voice assistant that responds in 449ms, routes 70% of queries locally for $0, and remembers every conversation.
+Real-time lip-synced avatar, full voice pipeline (wake word, streaming STT, speaker verification, TTS), 6-tier LLM routing across local and cloud models, 30+ tools with risk gating, hybrid vector memory. 14 modules, 535 tests. Desktop, Android, and remote access clients.
 
-`Python` `PyTorch` `Whisper` `Claude` `Gemini` `Ollama` `ChromaDB` `PySide6` `WebSocket`
-
----
-
-**[Citadel](https://github.com/dbhavery/citadel)** — AI Operations Platform
-
-AI ops platform that cuts vector search costs to $0 and prevents LLM outages from crashing your app.
-
-`Python` `FastAPI` `HNSW` `NumPy` `asyncio` `Claude` `Gemini` `Ollama`
+`Python` `PyTorch` `CUDA` `PySide6` `Kotlin` `WebSocket` `ChromaDB` `Claude` `Gemini` `Ollama` `LivePortrait` `MuseTalk` `Porcupine` `faster-whisper` `ElevenLabs` `Chatterbox` `ECAPA-TDNN` `Firebase`
 
 ---
 
-**[FuelFleet](https://github.com/dbhavery/fuelfleet-platform)** — Enterprise Fleet Management SaaS *(private showcase)*
+**Vault** — Self-Hosted Cloud Library
 
-Enterprise SaaS for mobile fuel delivery with 6 role-based portals, real-time fleet tracking, and financial modeling.
+52,400+ files, AI captioning, face clustering, semantic search across 85K+ embeddings, RAG chat. FastAPI backend, React frontend, React Native mobile with camera roll auto-upload. Google Photos and Drive sync.
 
-`React` `TypeScript` `Node.js` `Express` `Prisma` `Socket.IO` `PostgreSQL` `Railway` `Vercel`
-
----
-
-**[Herald](https://github.com/dbhavery/herald)** — Customer Operations Platform
-
-AI-powered customer support that responds in seconds with citations, tracks sentiment, and predicts churn.
-
-`Python` `FastAPI` `TF-IDF` `SQLite` `Claude` `Ollama`
+`Python` `FastAPI` `React` `TypeScript` `React Native` `ChromaDB` `BLIP` `InsightFace` `Peewee` `SQLite` `Tailscale`
 
 ---
 
-**[Sentinel](https://github.com/dbhavery/sentinel)** — Compliance Autopilot
+**Forge** — Desktop Image Generator & Editor
 
-Automated compliance scanner that does SOC 2, GDPR, and HIPAA gap analysis in seconds instead of weeks.
-
-`Python` `FastAPI` `SQLite` `Trigram Matching`
-
----
-
-**[Vaultwise](https://github.com/dbhavery/vaultwise)** — Knowledge Management Platform
-
-Knowledge base with search built from scratch — no ML libraries, pure Python math, AI-powered Q&A with source citations.
-
-`Python` `FastAPI` `TF-IDF` `SQLite` `Claude` `Ollama`
-
----
-
-**[CIGE](https://github.com/dbhavery/Custom-Image-Generator-and-Editor)** — Custom Image Generator & Editor *(private)*
-
-Local AI image generation that costs $0 per image, runs on your own GPU, and keeps your prompts private.
+Dual-model architecture (FLUX.1-dev for quality, RealVisXL Lightning for speed). txt2img, img2img, inpainting. 144 tests.
 
 `Python` `PySide6` `diffusers` `FLUX.1-dev` `RealVisXL` `CUDA`
 
 ---
 
-**[Cortex](https://github.com/dbhavery/cortex)** — AI Media Cataloger
+**Herald** — Autonomous Intelligence Pipeline
 
-AI media cataloger — BLIP captioning, InsightFace face clustering, Google Photos sync, semantic search.
+13 RSS feeds + web search, 6-dimensional scoring engine, Claude draft generation with self-review, Playwright auto-posting to LinkedIn. Analytics feedback loop. Zero human intervention. Runs daily.
 
-`Python` `FastAPI` `React` `BLIP` `InsightFace` `ChromaDB`
+`Python` `Peewee` `Playwright` `Claude API` `Ollama` `Firebase`
 
 ---
 
-**AI Dev Tools** — Five purpose-built tools for testing prompts, evaluating RAG, fine-tuning models, bridging local AI to Claude, and automating code review.
+**VoxType** — Push-to-Talk Dictation
 
-- **[PromptLab](https://github.com/dbhavery/promptlab)** — Test LLM prompts across Claude, Gemini, and Ollama simultaneously — like pytest for AI.
-- **[RagTest](https://github.com/dbhavery/ragtest)** — Evaluate RAG pipeline quality — separate retrieval and generation metrics, deterministic scoring.
-- **[FineForge](https://github.com/dbhavery/fineforge)** — Fine-tune language models on consumer GPUs for $0 — QLoRA, 7B models on 8GB VRAM.
-- **[McPlex](https://github.com/dbhavery/mcplex)** — MCP server bridging local Ollama models to Claude Code — 9 tools, zero cloud dependency.
-- **[CodeRev](https://github.com/dbhavery/coderev)** — AI code review GitHub App — Claude reviews PRs with severity classification and quality scoring.
+GPU-accelerated STT, LLM smart cleanup, paste at cursor. Lockfile coordination with Aether.
 
-`Python` `QLoRA` `MCP` `Ollama` `GitHub Apps` `YAML` `GGUF`
+`Python` `faster-whisper` `Ollama` `CUDA`
+
+---
+
+**Portfolio** — 3D Interactive Showcase
+
+Next.js, React Three Fiber, custom GLSL shaders, Rapier physics, GSAP scroll choreography. 6 WebGL scenes.
+
+`Next.js` `React` `TypeScript` `Three.js` `R3F` `GLSL` `GSAP` `Lenis` `Vercel`
+
+---
+
+### Agent Infrastructure
+
+22 custom agent definitions, 22 skills, 6 MCP server integrations. Multi-agent decomposition with parallel subagents, verification loops, and atomic commits. Token routing across model tiers. Context architecture for retrieval. GPU memory management across competing workloads.
 
 ---
 
 ### Tech Stack
 
-**AI/ML** &nbsp; `Claude` `Gemini` `Ollama` `PyTorch` `HuggingFace` `ChromaDB` `HNSW` `TF-IDF` `RAG` `LoRA/QLoRA` `MCP` `CUDA / GPU Computing`
+**AI/ML** &nbsp; `Claude` `Gemini` `Ollama` `PyTorch` `CUDA` `ChromaDB` `HNSW` `RAG` `MCP` `diffusers`
 
-**Backend** &nbsp; `Python` `FastAPI` `asyncio` `Node.js` `Express` `WebSocket`
+**Voice & Vision** &nbsp; `Porcupine` `faster-whisper` `ElevenLabs` `Chatterbox` `ECAPA-TDNN` `LivePortrait` `MuseTalk` `BLIP` `InsightFace`
 
-**Frontend** &nbsp; `React` `TypeScript` `Next.js` `Tailwind` `PySide6`
+**Backend** &nbsp; `Python` `FastAPI` `asyncio` `WebSocket` `Peewee` `SQLite`
 
-**Data** &nbsp; `PostgreSQL` `SQLite` `Prisma ORM` `Peewee ORM`
+**Frontend** &nbsp; `React` `TypeScript` `Next.js` `Tailwind` `PySide6` `React Native`
 
-**DevOps** &nbsp; `Docker` `GitHub Actions` `Vercel` `Railway`
+**3D/Graphics** &nbsp; `Three.js` `React Three Fiber` `GLSL` `Rapier` `GSAP`
 
-**Voice & Vision** &nbsp; `Whisper STT` `Chatterbox TTS` `Silero VAD` `InsightFace` `LivePortrait` `BLIP`
+**Infrastructure** &nbsp; `Tailscale` `Firebase` `Playwright` `Vercel`
 
 ---
 
-### Certifications (In Progress)
+### Education
 
-- Google Cloud Professional Machine Learning Engineer
-- AWS Certified Machine Learning Engineer -- Associate
-- DeepLearning.AI Generative AI with Large Language Models
-- Google Cloud Generative AI Leader
+Master's Degree — In Progress
 
 ---
 
@@ -122,4 +97,4 @@ AI media cataloger — BLIP captioning, InsightFace face clustering, Google Phot
 
 ### Contact
 
-**Email:** [dbhavery@gmail.com](mailto:dbhavery@gmail.com) &nbsp;|&nbsp; **GitHub:** [github.com/dbhavery](https://github.com/dbhavery) &nbsp;|&nbsp; **LinkedIn:** [linkedin.com/in/dbhavery](https://www.linkedin.com/in/dbhavery) &nbsp;|&nbsp; **Resume:** [Download PDF](https://github.com/dbhavery/dbhavery/raw/master/Donald_Havery_Resume.pdf)
+**Email:** [dbhavery@gmail.com](mailto:dbhavery@gmail.com) &nbsp;|&nbsp; **LinkedIn:** [linkedin.com/in/dbhavery](https://www.linkedin.com/in/dbhavery) &nbsp;|&nbsp; **Portfolio:** [dbhavery.dev](https://dbhavery.dev)
