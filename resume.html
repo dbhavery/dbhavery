@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Donald B. Havery - Resume</title>
+<style>
+  @page {
+    size: letter;
+    margin: 0.55in 0.65in;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', Calibri, Arial, sans-serif;
+    font-size: 9.5pt;
+    line-height: 1.38;
+    color: #1a1a1a;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    color: #0a0a0a;
+    margin-bottom: 2px;
+  }
+  .subtitle {
+    font-size: 10.5pt;
+    color: #2a2a2a;
+    font-weight: 500;
+    margin-bottom: 3px;
+  }
+  .contact {
+    font-size: 9pt;
+    color: #555;
+    margin-bottom: 14px;
+  }
+  .contact a { color: #555; text-decoration: none; }
+  h2 {
+    font-size: 11pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: #1a1a1a;
+    border-bottom: 1.5px solid #1a1a1a;
+    padding-bottom: 2px;
+    margin-top: 12px;
+    margin-bottom: 6px;
+  }
+  h3 {
+    font-size: 10pt;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 1px;
+  }
+  .meta {
+    font-size: 9pt;
+    color: #555;
+    margin-bottom: 3px;
+  }
+  .meta a { color: #555; text-decoration: none; }
+  .tags {
+    font-size: 8.5pt;
+    color: #666;
+    margin-bottom: 3px;
+  }
+  p { margin-bottom: 4px; }
+  ul {
+    margin-left: 14px;
+    margin-bottom: 6px;
+  }
+  li { margin-bottom: 2px; }
+  .summary {
+    margin-bottom: 2px;
+  }
+  .project { margin-bottom: 8px; }
+  .project:last-child { margin-bottom: 0; }
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    gap: 2px 10px;
+    margin-bottom: 2px;
+  }
+  .skills-grid .label {
+    font-weight: 600;
+    font-size: 9pt;
+    color: #333;
+  }
+  .skills-grid .value {
+    font-size: 9pt;
+  }
+  .cert-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px 20px;
+  }
+  .cert-section { margin-bottom: 6px; }
+  .cert-section h3 { font-size: 9.5pt; margin-bottom: 3px; }
+  .cert-section ul { margin-left: 14px; }
+  .cert-section li { font-size: 9pt; margin-bottom: 1px; }
+  .exp-entry { margin-bottom: 6px; }
+  .exp-header { display: flex; justify-content: space-between; align-items: baseline; }
+  .exp-header .dates { font-size: 9pt; color: #555; white-space: nowrap; }
+  .page-break { page-break-before: always; }
+  strong { font-weight: 600; }
+</style>
+</head>
+<body>
+
+<h1>DONALD B. HAVERY</h1>
+<div class="subtitle">AI Systems Engineer | Agent Harness Architecture, Multi-Agent Orchestration, Context Engineering</div>
+<div class="contact">Portland, OR (Remote) &nbsp;|&nbsp; dbhavery@gmail.com &nbsp;|&nbsp; github.com/dbhavery &nbsp;|&nbsp; linkedin.com/in/dbhavery &nbsp;|&nbsp; dbhavery.dev</div>
+
+<h2>Professional Summary</h2>
+<p class="summary">AI systems engineer with 42 GitHub repositories and 1,200+ commits building production agent infrastructure &mdash; not chatbot wrappers, not demos. Specialize in agent harness design: memory architecture, context engineering, and multi-agent communication that stays coherent over long-running tasks. Over 500 agent skills, 32 tools, and 1,700+ automated tests, each measured against concrete targets. Write specifications precise enough that agents build entire modules correctly on the first pass. Architect context systems with persistent memory, semantic search over 70,000+ documents, and structured retrieval routing the right information to the right agent at the right time. Manage token economics across model tiers, routing every task to the right model at the right cost. Currently building a conversational AI assistant with real-time lip-synced avatar, a semantic file library with RAG across 152,000+ files, and an autonomous research-to-publication pipeline. Pursuing a BS in Computer Science with focus on AI engineering.</p>
+
+<h2>Technical Skills</h2>
+<div class="skills-grid">
+  <span class="label">AI & ML</span>
+  <span class="value">Claude (Sonnet/Opus), Gemini (Pro/Flash), Ollama, Qwen, PyTorch, ONNX Runtime, HuggingFace, ChromaDB, FLUX.1-dev, diffusers, transformers, DreamBooth LoRA, QLoRA</span>
+  <span class="label">Agent Architecture</span>
+  <span class="value">Multi-agent orchestration, MCP (Model Context Protocol), intelligent intent routing, LLM function calling & tool use, RAG, vector search (BM25 + dense), prompt engineering, context window management, skill/tool registries, autonomous development loops</span>
+  <span class="label">Voice & Avatar</span>
+  <span class="value">Faster-Whisper STT, ElevenLabs Scribe v2, Chatterbox voice cloning, Silero VAD, Picovoice Porcupine wake word, ECAPA-TDNN speaker verification, FlashHead Lite (real-time talking head), LivePortrait, Audio2Face-3D, GFPGAN upscaling</span>
+  <span class="label">Backend</span>
+  <span class="value">Python (asyncio, FastAPI), Node.js, Express.js, Prisma ORM, Peewee ORM, REST API, WebSocket, JWT, rate limiting</span>
+  <span class="label">Frontend</span>
+  <span class="value">React 18, TypeScript, Next.js, Vite, Tailwind CSS, Three.js/R3F, Recharts, Leaflet, Socket.io, PySide6 (Qt6)</span>
+  <span class="label">Data & Cloud</span>
+  <span class="value">PostgreSQL, SQLite, ChromaDB, Redis, Vercel, Railway, Docker, GitHub Actions CI/CD, Firebase, Google APIs</span>
+  <span class="label">Mobile & Desktop</span>
+  <span class="value">Kotlin (Jetpack Compose), PySide6 (Windows), WebRTC, Firebase Cloud Messaging, Tailscale VPN</span>
+</div>
+
+<h2>Projects</h2>
+
+<div class="project">
+  <h3>Aether &mdash; Production AI Voice Assistant</h3>
+  <div class="meta">github.com/dbhavery/aether &nbsp;|&nbsp; Python &nbsp;|&nbsp; 787 tests &nbsp;|&nbsp; 2 generations &nbsp;|&nbsp; 492 commits</div>
+  <ul>
+    <li><strong>Multi-agent orchestration:</strong> OrchestratorAgent + 7 sub-agents with 5-model intelligent LLM routing (local Qwen 91-380ms, Claude, Gemini), 32 core tools, 509 skills, and agentic tool-calling loops</li>
+    <li><strong>Real-time voice pipeline:</strong> 449ms p50 latency (mic to first audio) &mdash; Silero VAD, Faster-Whisper STT (82ms), sentence-level TTS streaming via Chatterbox voice cloning, LLM response streaming</li>
+    <li><strong>Real-time avatar:</strong> FlashHead Lite (1.3B DiT, 24.5 FPS) with GFPGAN upscaling (512&rarr;1024), MJPEG streaming, crash detection with graceful fallback &mdash; 9.9GB VRAM total</li>
+    <li><strong>Memory system:</strong> Tiered cache, ChromaDB RAG with hybrid search (BM25 + dense vector), SQLite knowledge base with SHA-256 dedup, AdaptiveLearner for continuous improvement</li>
+    <li><strong>Cross-platform:</strong> PySide6 desktop with biometric auth, Kotlin/Android with WebRTC, Telegram bot, WebSocket server &mdash; Windows auto-start launcher</li>
+    <li><strong>Security:</strong> Command injection blocking (11 regex patterns), path traversal protection, WebSocket token auth, prompt injection defense, 24GB VRAM coordination across 7+ models</li>
+  </ul>
+</div>
+
+<div class="project">
+  <h3>FuelFleet &mdash; Enterprise SaaS for Mobile Fuel Delivery</h3>
+  <div class="meta">github.com/dbhavery/fuelfleet-platform &nbsp;|&nbsp; 14 repos &nbsp;|&nbsp; 339 commits &nbsp;|&nbsp; React, TypeScript, Node.js, Express, Prisma, PostgreSQL</div>
+  <ul>
+    <li><strong>6 role-based portals:</strong> HQ Command Center (18 pages), Franchise Portal, Driver Co-Pilot (4-mode operational interface), Customer Portal (5 sub-portals), unified auth gateway</li>
+    <li><strong>Platform architecture:</strong> Microservices with JWT auth, bcrypt, Helmet security, rate limiting, Socket.io real-time events, deployed on Railway + Vercel + Neon PostgreSQL</li>
+    <li><strong>255-input Simulation Engine:</strong> 20 categories of realistic data, 9 scenario presets, 1x-100x time control, per-vehicle WebSocket subscriptions</li>
+  </ul>
+</div>
+
+<div class="project">
+  <h3>Citadel &mdash; AI Operations Platform</h3>
+  <div class="meta">github.com/dbhavery/citadel &nbsp;|&nbsp; Python &nbsp;|&nbsp; 6 packages &nbsp;|&nbsp; 100% test coverage</div>
+  <ul>
+    <li>Zero-dependency HNSW vector search eliminating $70+/mo managed DB costs, multi-provider LLM routing with automatic failover, ReAct agent framework with tool execution and thought chains</li>
+  </ul>
+</div>
+
+<div class="project">
+  <h3>Additional Projects</h3>
+  <ul>
+    <li><strong>Vault</strong> (github.com/dbhavery/library) &mdash; Personal file library with semantic search + RAG chat over 152K+ files. FastAPI + React, ChromaDB, Peewee ORM</li>
+    <li><strong>Herald</strong> (github.com/dbhavery/herald) &mdash; AI customer ops platform. 95 tests, 34 endpoints, TF-IDF sentiment scoring, churn prediction</li>
+    <li><strong>Sentinel</strong> (github.com/dbhavery/sentinel) &mdash; Compliance autopilot for SOC 2, GDPR, HIPAA. 50 tests, 62 requirements, 14 templates</li>
+    <li><strong>Cortex</strong> (github.com/dbhavery/cortex) &mdash; AI media cataloger with BLIP captioning, InsightFace face recognition, 28 file types</li>
+    <li><strong>Vaultwise</strong> (github.com/dbhavery/vaultwise) &mdash; Knowledge management with TF-IDF search from scratch. 133 tests, 20 endpoints</li>
+    <li><strong>Forge</strong> (github.com/dbhavery/Custom-Image-Generator-and-Editor) &mdash; Local AI image generation ($0/image). FLUX.1-dev + RealVisXL, PySide6 UI, 144 tests</li>
+    <li><strong>Morning Intel</strong> (github.com/dbhavery/morning-intel) &mdash; Autonomous research-to-LinkedIn pipeline. 19 sources daily, auto-posts, Ollama qwen3:8b</li>
+    <li><strong>Autoloop</strong> (github.com/dbhavery/autoloop) &mdash; Autonomous dev loop for Claude Code. 573 BATS tests, circuit breaker pattern, dual-condition exit gate</li>
+    <li><strong>AI Dev Tools</strong> &mdash; fineforge, promptlab, ragtest, mcplex (MCP server), coderev (AI code review GitHub App). 196 tests total</li>
+  </ul>
+</div>
+
+<h2>Professional Experience</h2>
+
+<div class="exp-entry">
+  <div class="exp-header">
+    <h3>AI Systems Engineer &mdash; Independent</h3>
+    <span class="dates">Feb 2025 &ndash; Present</span>
+  </div>
+  <div class="meta">Remote &nbsp;|&nbsp; Freelance</div>
+  <ul>
+    <li>Designed and built production AI agent infrastructure: multi-agent orchestration, real-time voice pipelines, context engineering systems, and autonomous development workflows</li>
+    <li>Architected 7-agent system with 5-model LLM routing, 509 skills, and 32 tools &mdash; real-time avatar with FlashHead Lite at 24.5 FPS on consumer GPU</li>
+    <li>Built enterprise SaaS platform (FuelFleet) with 6 portals, 9 access tiers, real-time fleet tracking, deployed across Railway and Vercel</li>
+  </ul>
+</div>
+
+<div class="exp-entry">
+  <h3>Transportation &amp; Supply Chain Operations</h3>
+  <div class="meta">Old Dominion Freight Line &nbsp;|&nbsp; Peninsula Truck Lines &nbsp;|&nbsp; Alpha Transport &nbsp;|&nbsp; Portland, OR</div>
+  <ul>
+    <li>Line haul operations for a top-3 national LTL carrier (Old Dominion), coordinating with distributed dispatch and terminal teams in real-time</li>
+    <li>Certified driver trainer &mdash; assessed skills, provided road instruction, ensured DOT safety compliance for new operators</li>
+    <li>Managed hazmat, tanker, and oversized load operations across Western US routes under FMCSA regulations</li>
+  </ul>
+</div>
+
+<h2>Certifications</h2>
+
+<div class="cert-grid">
+  <div class="cert-section">
+    <h3>Anthropic Academy</h3>
+    <ul>
+      <li>Building with the Claude API</li>
+      <li>Claude Code in Action</li>
+      <li>Introduction to Claude Cowork</li>
+      <li>Introduction to Model Context Protocol</li>
+      <li>MCP: Advanced Topics</li>
+      <li>AI Fluency: Framework & Foundations</li>
+      <li>AI Fluency for Students</li>
+      <li>AI Fluency for Educators</li>
+      <li>Claude 101</li>
+    </ul>
+  </div>
+  <div class="cert-section">
+    <h3>Sophia Learning (Capella University Prerequisites)</h3>
+    <ul>
+      <li>Introduction to Python Programming (CS1100)</li>
+      <li>Introduction to Java Programming (CS1101)</li>
+      <li>Introduction to Information Technology (CS1001)</li>
+      <li>Introduction to Relational Databases (CS1011)</li>
+      <li>Introduction to Networking (CS1015)</li>
+      <li>Introduction to Statistics (STAT1001)</li>
+      <li>Critical Thinking (PHIL1005)</li>
+      <li>English Composition I (ENG1001)</li>
+      <li>U.S. Government (HIST1020)</li>
+    </ul>
+    <h3 style="margin-top:6px;">Transportation Certifications</h3>
+    <ul>
+      <li>Certified Driver Trainer</li>
+      <li>Smith System Defensive Driving Instructor</li>
+      <li>DOT Compliance &amp; Safety Certification</li>
+    </ul>
+  </div>
+</div>
+
+<h2>Licenses</h2>
+<p><strong>Class A Commercial Driver&rsquo;s License</strong> &mdash; Hazmat (H), Tanker (N), Doubles/Triples (T) endorsements</p>
+
+<h2>Education</h2>
+<p><strong>Capella University</strong> &mdash; Bachelor of Science, Computer Science (AI Engineering & Machine Learning)</p>
+<p style="font-size:9pt;color:#555;">FlexPath self-paced program. Completing prerequisite credits through Sophia Learning. Focus: agentic systems, software engineering, algorithms.</p>
+
+</body>
+</html>
