@@ -112,72 +112,67 @@
 <div class="subtitle">AI Systems Engineer | Agent Harness Architecture, Multi-Agent Orchestration, Context Engineering</div>
 <div class="contact">Portland, OR (Remote) &nbsp;|&nbsp; dbhavery@gmail.com &nbsp;|&nbsp; github.com/dbhavery &nbsp;|&nbsp; linkedin.com/in/dbhavery &nbsp;|&nbsp; dbhavery.dev</div>
 
-<h2>Professional Summary</h2>
-<p class="summary">AI systems engineer with 42 GitHub repositories and 1,200+ commits building production agent infrastructure &mdash; not chatbot wrappers, not demos. Specialize in agent harness design: memory architecture, context engineering, and multi-agent communication that stays coherent over long-running tasks. Over 500 agent skills, 32 tools, and 1,700+ automated tests, each measured against concrete targets. Write specifications precise enough that agents build entire modules correctly on the first pass. Architect context systems with persistent memory, semantic search over 70,000+ documents, and structured retrieval routing the right information to the right agent at the right time. Manage token economics across model tiers, routing every task to the right model at the right cost. Currently building a conversational AI assistant with real-time lip-synced avatar, a semantic file library with RAG across 152,000+ files, and an autonomous research-to-publication pipeline. Pursuing a BS in Computer Science with focus on AI engineering.</p>
+<h2>Summary</h2>
+<p class="summary">AI systems engineer building production agent infrastructure across 42 GitHub repositories and 1,200+ commits. Specialize in agent harness design, context engineering, and multi-agent orchestration. 500+ agent skills, 32 tools, 1,700+ automated tests. Currently building a conversational AI assistant with real-time lip-synced avatar, a semantic file library with RAG across 152K+ files, and an autonomous research-to-publication pipeline. Pursuing a BS in Computer Science.</p>
 
 <h2>Technical Skills</h2>
 <div class="skills-grid">
   <span class="label">AI & ML</span>
-  <span class="value">Claude (Sonnet/Opus), Gemini (Pro/Flash), Ollama, Qwen, PyTorch, ONNX Runtime, HuggingFace, ChromaDB, FLUX.1-dev, diffusers, transformers, DreamBooth LoRA, QLoRA</span>
+  <span class="value">Claude, Gemini, Ollama, Qwen, PyTorch, ONNX Runtime, HuggingFace, ChromaDB, FLUX.1-dev, transformers, LoRA/QLoRA</span>
   <span class="label">Agent Architecture</span>
-  <span class="value">Multi-agent orchestration, MCP (Model Context Protocol), intelligent intent routing, LLM function calling & tool use, RAG, vector search (BM25 + dense), prompt engineering, context window management, skill/tool registries, autonomous development loops</span>
+  <span class="value">Multi-agent orchestration, MCP, intent routing, LLM tool use, RAG, vector search (BM25 + dense), prompt engineering, context engineering, autonomous dev loops</span>
   <span class="label">Voice & Avatar</span>
-  <span class="value">Faster-Whisper STT, ElevenLabs Scribe v2, Chatterbox voice cloning, Silero VAD, Picovoice Porcupine wake word, ECAPA-TDNN speaker verification, FlashHead Lite (real-time talking head), LivePortrait, Audio2Face-3D, GFPGAN upscaling</span>
+  <span class="value">Faster-Whisper STT, Chatterbox voice cloning, Silero VAD, Porcupine wake word, ECAPA-TDNN speaker verification, FlashHead Lite, LivePortrait, Audio2Face-3D, GFPGAN</span>
   <span class="label">Backend</span>
-  <span class="value">Python (asyncio, FastAPI), Node.js, Express.js, Prisma ORM, Peewee ORM, REST API, WebSocket, JWT, rate limiting</span>
+  <span class="value">Python (asyncio, FastAPI), Node.js, Express, Prisma ORM, Peewee ORM, WebSocket, JWT</span>
   <span class="label">Frontend</span>
-  <span class="value">React 18, TypeScript, Next.js, Vite, Tailwind CSS, Three.js/R3F, Recharts, Leaflet, Socket.io, PySide6 (Qt6)</span>
+  <span class="value">React 18, TypeScript, Next.js, Vite, Tailwind CSS, Three.js/R3F, PySide6 (Qt6)</span>
   <span class="label">Data & Cloud</span>
-  <span class="value">PostgreSQL, SQLite, ChromaDB, Redis, Vercel, Railway, Docker, GitHub Actions CI/CD, Firebase, Google APIs</span>
+  <span class="value">PostgreSQL, SQLite, ChromaDB, Redis, Vercel, Railway, Docker, GitHub Actions, Firebase</span>
   <span class="label">Mobile & Desktop</span>
-  <span class="value">Kotlin (Jetpack Compose), PySide6 (Windows), WebRTC, Firebase Cloud Messaging, Tailscale VPN</span>
+  <span class="value">Kotlin (Jetpack Compose), PySide6, WebRTC, Firebase Cloud Messaging</span>
 </div>
 
 <h2>Projects</h2>
 
 <div class="project">
-  <h3>Aether &mdash; Production AI Voice Assistant</h3>
-  <div class="meta">github.com/dbhavery/aether &nbsp;|&nbsp; Python &nbsp;|&nbsp; 787 tests &nbsp;|&nbsp; 2 generations &nbsp;|&nbsp; 492 commits</div>
+  <h3>Aether &mdash; AI Voice Assistant</h3>
+  <div class="meta">github.com/dbhavery/aether &nbsp;|&nbsp; Python &nbsp;|&nbsp; 787 tests &nbsp;|&nbsp; 492 commits</div>
   <ul>
-    <li><strong>Multi-agent orchestration:</strong> OrchestratorAgent + 7 sub-agents with 5-model intelligent LLM routing (local Qwen 91-380ms, Claude, Gemini), 32 core tools, 509 skills, and agentic tool-calling loops</li>
-    <li><strong>Real-time voice pipeline:</strong> 449ms p50 latency (mic to first audio) &mdash; Silero VAD, Faster-Whisper STT (82ms), sentence-level TTS streaming via Chatterbox voice cloning, LLM response streaming</li>
-    <li><strong>Real-time avatar:</strong> FlashHead Lite (1.3B DiT, 24.5 FPS) with GFPGAN upscaling (512&rarr;1024), MJPEG streaming, crash detection with graceful fallback &mdash; 9.9GB VRAM total</li>
-    <li><strong>Memory system:</strong> Tiered cache, ChromaDB RAG with hybrid search (BM25 + dense vector), SQLite knowledge base with SHA-256 dedup, AdaptiveLearner for continuous improvement</li>
-    <li><strong>Cross-platform:</strong> PySide6 desktop with biometric auth, Kotlin/Android with WebRTC, Telegram bot, WebSocket server &mdash; Windows auto-start launcher</li>
-    <li><strong>Security:</strong> Command injection blocking (11 regex patterns), path traversal protection, WebSocket token auth, prompt injection defense, 24GB VRAM coordination across 7+ models</li>
+    <li>7 sub-agents with 5-model LLM routing (Qwen, Claude, Gemini), 32 tools, 509 skills</li>
+    <li>449ms voice latency: Silero VAD &rarr; Whisper STT &rarr; LLM streaming &rarr; Chatterbox TTS</li>
+    <li>FlashHead Lite avatar at 24.5 FPS with GFPGAN upscaling, 9.9GB VRAM</li>
+    <li>ChromaDB RAG with hybrid search, tiered memory, speaker verification</li>
+    <li>Desktop (PySide6), Android (Kotlin/WebRTC), Telegram, WebSocket</li>
   </ul>
 </div>
 
 <div class="project">
   <h3>FuelFleet &mdash; Enterprise SaaS for Mobile Fuel Delivery</h3>
-  <div class="meta">github.com/dbhavery/fuelfleet-platform &nbsp;|&nbsp; 14 repos &nbsp;|&nbsp; 339 commits &nbsp;|&nbsp; React, TypeScript, Node.js, Express, Prisma, PostgreSQL</div>
+  <div class="meta">github.com/dbhavery/fuelfleet-platform &nbsp;|&nbsp; 14 repos &nbsp;|&nbsp; 339 commits &nbsp;|&nbsp; React, TypeScript, Node.js, PostgreSQL</div>
   <ul>
-    <li><strong>6 role-based portals:</strong> HQ Command Center (18 pages), Franchise Portal, Driver Co-Pilot (4-mode operational interface), Customer Portal (5 sub-portals), unified auth gateway</li>
-    <li><strong>Platform architecture:</strong> Microservices with JWT auth, bcrypt, Helmet security, rate limiting, Socket.io real-time events, deployed on Railway + Vercel + Neon PostgreSQL</li>
-    <li><strong>255-input Simulation Engine:</strong> 20 categories of realistic data, 9 scenario presets, 1x-100x time control, per-vehicle WebSocket subscriptions</li>
+    <li>6 role-based portals, 9 access tiers, real-time fleet tracking, deployed on Railway + Vercel</li>
+    <li>255-input simulation engine with 20 data categories and per-vehicle WebSocket subscriptions</li>
   </ul>
 </div>
 
 <div class="project">
   <h3>Citadel &mdash; AI Operations Platform</h3>
   <div class="meta">github.com/dbhavery/citadel &nbsp;|&nbsp; Python &nbsp;|&nbsp; 6 packages &nbsp;|&nbsp; 100% test coverage</div>
-  <ul>
-    <li>Zero-dependency HNSW vector search eliminating $70+/mo managed DB costs, multi-provider LLM routing with automatic failover, ReAct agent framework with tool execution and thought chains</li>
-  </ul>
+  <p>Zero-dependency HNSW vector search, multi-provider LLM routing with failover, ReAct agent framework</p>
 </div>
 
 <div class="project">
   <h3>Additional Projects</h3>
   <ul>
-    <li><strong>Vault</strong> (github.com/dbhavery/library) &mdash; Personal file library with semantic search + RAG chat over 152K+ files. FastAPI + React, ChromaDB, Peewee ORM</li>
-    <li><strong>Herald</strong> (github.com/dbhavery/herald) &mdash; AI customer ops platform. 95 tests, 34 endpoints, TF-IDF sentiment scoring, churn prediction</li>
-    <li><strong>Sentinel</strong> (github.com/dbhavery/sentinel) &mdash; Compliance autopilot for SOC 2, GDPR, HIPAA. 50 tests, 62 requirements, 14 templates</li>
-    <li><strong>Cortex</strong> (github.com/dbhavery/cortex) &mdash; AI media cataloger with BLIP captioning, InsightFace face recognition, 28 file types</li>
-    <li><strong>Vaultwise</strong> (github.com/dbhavery/vaultwise) &mdash; Knowledge management with TF-IDF search from scratch. 133 tests, 20 endpoints</li>
-    <li><strong>Forge</strong> (github.com/dbhavery/Custom-Image-Generator-and-Editor) &mdash; Local AI image generation ($0/image). FLUX.1-dev + RealVisXL, PySide6 UI, 144 tests</li>
-    <li><strong>Morning Intel</strong> (github.com/dbhavery/morning-intel) &mdash; Autonomous research-to-LinkedIn pipeline. 19 sources daily, auto-posts, Ollama qwen3:8b</li>
-    <li><strong>Autoloop</strong> (github.com/dbhavery/autoloop) &mdash; Autonomous dev loop for Claude Code. 573 BATS tests, circuit breaker pattern, dual-condition exit gate</li>
-    <li><strong>AI Dev Tools</strong> &mdash; fineforge, promptlab, ragtest, mcplex (MCP server), coderev (AI code review GitHub App). 196 tests total</li>
+    <li><strong>Vault</strong> &mdash; Semantic file library + RAG chat over 152K+ files (FastAPI, React, ChromaDB)</li>
+    <li><strong>Herald</strong> &mdash; AI customer ops with sentiment scoring and churn prediction (95 tests, 34 endpoints)</li>
+    <li><strong>Sentinel</strong> &mdash; Compliance autopilot for SOC 2, GDPR, HIPAA (50 tests, 14 templates)</li>
+    <li><strong>Cortex</strong> &mdash; AI media cataloger with BLIP captioning and face recognition (28 file types)</li>
+    <li><strong>Forge</strong> &mdash; Local AI image generation, $0/image (FLUX.1-dev, PySide6, 144 tests)</li>
+    <li><strong>Morning Intel</strong> &mdash; Autonomous research-to-LinkedIn pipeline (19 sources, auto-posts daily)</li>
+    <li><strong>Autoloop</strong> &mdash; Autonomous dev loop for Claude Code (573 tests, circuit breaker pattern)</li>
+    <li><strong>AI Dev Tools</strong> &mdash; fineforge, promptlab, ragtest, mcplex (MCP), coderev (196 tests)</li>
   </ul>
 </div>
 
@@ -188,22 +183,14 @@
     <h3>AI Systems Engineer &mdash; Independent</h3>
     <span class="dates">Feb 2025 &ndash; Present</span>
   </div>
-  <div class="meta">Remote &nbsp;|&nbsp; Freelance</div>
-  <ul>
-    <li>Designed and built production AI agent infrastructure: multi-agent orchestration, real-time voice pipelines, context engineering systems, and autonomous development workflows</li>
-    <li>Architected 7-agent system with 5-model LLM routing, 509 skills, and 32 tools &mdash; real-time avatar with FlashHead Lite at 24.5 FPS on consumer GPU</li>
-    <li>Built enterprise SaaS platform (FuelFleet) with 6 portals, 9 access tiers, real-time fleet tracking, deployed across Railway and Vercel</li>
-  </ul>
+  <div class="meta">Remote</div>
+  <p>Production AI agent infrastructure: multi-agent orchestration, real-time voice pipelines, context engineering, enterprise SaaS (FuelFleet &mdash; 6 portals, 9 access tiers, real-time fleet tracking)</p>
 </div>
 
 <div class="exp-entry">
   <h3>Transportation &amp; Supply Chain Operations</h3>
   <div class="meta">Old Dominion Freight Line &nbsp;|&nbsp; Peninsula Truck Lines &nbsp;|&nbsp; Alpha Transport &nbsp;|&nbsp; Portland, OR</div>
-  <ul>
-    <li>Line haul operations for a top-3 national LTL carrier (Old Dominion), coordinating with distributed dispatch and terminal teams in real-time</li>
-    <li>Certified driver trainer &mdash; assessed skills, provided road instruction, ensured DOT safety compliance for new operators</li>
-    <li>Managed hazmat, tanker, and oversized load operations across Western US routes under FMCSA regulations</li>
-  </ul>
+  <p>Line haul operations for top-3 national LTL carrier. Certified driver trainer. Hazmat, tanker, and oversized load operations under FMCSA regulations.</p>
 </div>
 
 <h2>Certifications</h2>
@@ -250,7 +237,7 @@
 
 <h2>Education</h2>
 <p><strong>Capella University</strong> &mdash; Bachelor of Science, Computer Science (AI Engineering & Machine Learning)</p>
-<p style="font-size:9pt;color:#555;">FlexPath self-paced program. Completing prerequisite credits through Sophia Learning. Focus: agentic systems, software engineering, algorithms.</p>
+<p style="font-size:9pt;color:#555;">Focus: agentic systems, software engineering, algorithms.</p>
 
 </body>
 </html>
