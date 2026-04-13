@@ -1,0 +1,11 @@
+"There has never been a better time to have a problem."
+
+The billboard is right — but the shift is bigger than "faster answers." It's a change in what a problem is.
+
+For most of my career, a problem was a wall — something to research, debate, and eventually route around. Now a problem is a brief. You describe it. You constrain it. An hour later, something exists that didn't.
+
+That reframe is what people mean when AI "changes how you work." It's not that you move faster. It's that you stop triaging which problems are worth solving — because suddenly, most of them are.
+
+If you've been sitting on a problem because it felt too small to justify the effort, this is your sign to ship it.
+
+#AI #Claude #ProductBuilders

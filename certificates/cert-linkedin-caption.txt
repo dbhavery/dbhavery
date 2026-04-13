@@ -1,0 +1,14 @@
+Claude ran the math and certified me as a top 0.1% Claude Code user. Mentioning it up front so it's not the point.
+
+The actual point: power users aren't people with more hours — they're people who stopped treating Claude Code as a chatbot and started treating it as infrastructure. That shift is available to anyone willing to make it.
+
+If you're using Claude Code mostly to answer questions, you're using about 5% of it. The other 95% is what happens when you:
+
+• Write skills instead of retyping prompts
+• Design subagents with roles — a debugger thinks differently than a planner
+• Use hooks to enforce your own discipline
+• Let it run headless — the real leverage shows up when you're not watching
+
+The ceiling is much higher than the default experience suggests. Go find yours.
+
+#ClaudeCode #Anthropic #PromptEngineering
