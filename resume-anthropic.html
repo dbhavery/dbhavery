@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Donald B. Havery - Resume</title>
+<style>
+  @page { size: letter; margin: 0.5in 0.6in; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', Calibri, Arial, sans-serif;
+    font-size: 9.5pt;
+    line-height: 1.38;
+    color: #1a1a1a;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  h1 { font-size: 22pt; font-weight: 700; letter-spacing: -0.3px; color: #0a0a0a; margin-bottom: 2px; }
+  .subtitle { font-size: 10.5pt; color: #2a2a2a; font-weight: 500; margin-bottom: 3px; }
+  .contact { font-size: 9pt; color: #555; margin-bottom: 8px; }
+  h2 {
+    font-size: 10.5pt; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px;
+    color: #1a1a1a; border-bottom: 1.5px solid #1a1a1a; padding-bottom: 2px;
+    margin-top: 11px; margin-bottom: 5px;
+  }
+  h3 { font-size: 9.5pt; font-weight: 700; color: #1a1a1a; margin-bottom: 1px; }
+  .meta { font-size: 8.5pt; color: #555; margin-bottom: 2px; }
+  p { margin-bottom: 3px; }
+  ul { margin-left: 14px; margin-bottom: 5px; }
+  li { margin-bottom: 1.5px; }
+  .project { margin-bottom: 7px; }
+  .project:last-child { margin-bottom: 0; }
+  strong { font-weight: 700; }
+  .summary { margin-bottom: 6px; }
+  .skills-grid {
+    display: grid; grid-template-columns: 130px 1fr; gap: 2px 8px; margin-bottom: 2px;
+  }
+  .skills-grid .label { font-weight: 600; font-size: 9pt; color: #333; }
+  .skills-grid .value { font-size: 9pt; }
+  .cert-row { font-size: 9pt; margin-bottom: 2px; }
+  .exp-entry { margin-bottom: 6px; }
+  .exp-header { display: flex; justify-content: space-between; align-items: baseline; }
+  .exp-header .dates { font-size: 9pt; color: #555; white-space: nowrap; }
+</style>
+</head>
+<body>
+
+<h1>DONALD B. HAVERY</h1>
+<div class="subtitle">Prompt Engineer | System Prompt Design, Behavioral Tuning, Multi-Agent Orchestration</div>
+<div class="contact">Vancouver, WA (Seattle 25% on-site) &nbsp;|&nbsp; dbhavery@gmail.com &nbsp;|&nbsp; linkedin.com/in/dbhavery</div>
+
+<h2>Summary</h2>
+<p class="summary">Daily Claude Code user since early 2025. Completed all 16 Anthropic Academy courses. I author <strong>behavioral specifications</strong> that define how Claude should think, escalate, and fail safely, then build the <strong>evaluation frameworks</strong> that catch <strong>regressions</strong> when model snapshots change. My production systems depend on the <strong>system prompt being the product</strong>: a live conversational assistant with lip-synced avatar where Claude must maintain identical behavior across five LLM providers, autonomous pipelines that self-review for safety before publishing, and multi-agent architectures where coordinated agents enforce <strong>refusal boundaries</strong> and <strong>defense-in-depth</strong>.</p>
+
+<h2>What I Build</h2>
+
+<div class="project">
+  <h3>Live Conversational Assistant with Real-Time Lip-Synced Avatar</h3>
+  <ul>
+    <li>The core prompt engineering challenge: <strong>maintaining identical personality, safety constraints, and tool-use behavior across five LLM providers</strong> (Claude, Gemini, local Qwen) with seamless failover the user never perceives. This is a <strong>behavioral consistency</strong> problem most teams don't attempt</li>
+    <li>Designed <strong>refusal boundaries</strong> and <strong>safety constraints</strong> that hold consistently regardless of which provider is serving. Built the evals that verify behavioral parity across all five models after every system prompt change</li>
+    <li>Full agent scaffold from live STT to lip-synced avatar response in 449ms. 70% of queries routed to local inference at $0. Avatar expresses emotional states (thinking, listening, speaking) with LoRA-trained selectable personas</li>
+  </ul>
+</div>
+
+<div class="project">
+  <h3>Behavioral Specification Library</h3>
+  <ul>
+    <li><strong>Grader:</strong> Meta-evaluation agent that audits whether its own assertions are discriminating enough. Flags "surface compliance" where tests pass for the wrong reasons, coincidence is mistaken for evidence, or outputs satisfy the check but miss the intent</li>
+    <li><strong>Security Auditor + LLM Architect:</strong> Coordinated <strong>prompt injection defense</strong> through instruction hierarchy, boundary markers, and "assume breach" posture. Contracts enforce "never suppress errors" and "<strong>fail closed</strong> on ambiguity"</li>
+    <li><strong>Release Gatekeeper:</strong> 26-point behavioral checklist that enforces "every check actually performed, not assumed." Blocks deployment if safety, documentation, or <strong>regression testing</strong> gates are not satisfied</li>
+    <li><strong>Anti-Drift System:</strong> Prompts that enforce "never trust your own memory," "fail closed," and "the checklist is the authority, not vibes." Prevents context rot across long sessions</li>
+    <li><strong>Debugger:</strong> 6-phase diagnostic protocol (Observe, Hypothesize, Isolate, Fix, Verify, Document) with explicit guardrails against guessing. 2-attempt escalation rule prevents sunk-cost debugging loops</li>
+    <li><strong>Integration Architect:</strong> Per-service retry budgets, circuit breaker state machines (Closed/Open/Half-Open), bulkhead isolation preventing cascade failures across external dependencies</li>
+  </ul>
+</div>
+
+<div class="project">
+  <h3>Autonomous Pipeline, Self-Reviewing for Safety, Running Daily for Months</h3>
+  <p>Researches 19 sources, generates content, <strong>self-reviews for factual accuracy and safety</strong>, then publishes with zero human intervention. The hard prompt engineering problem: getting an LLM to reliably catch its own factual errors and flag its own unsafe outputs before they reach a public platform.</p>
+</div>
+
+<h2>Safety Philosophy</h2>
+<p class="summary">Every behavioral spec includes <strong>explicit refusal boundaries</strong>, not just capabilities. My agents enforce "<strong>fail closed on ambiguity</strong>" rather than defaulting to helpfulness when the safe response is unclear. I coordinate <strong>defense-in-depth across agent teams</strong> because single-layer guardrails break. I build <strong>evaluation frameworks that test for harmful outputs</strong>, not just correct ones, because a prompt that produces good answers 99% of the time and dangerous answers 1% of the time is a dangerous prompt.</p>
+
+<h2>Technical Skills</h2>
+<div class="skills-grid">
+  <span class="label">Prompt Engineering</span>
+  <span class="value"><strong>System prompt design</strong>, <strong>behavioral specification</strong>, <strong>model-specific tuning</strong>, instruction hierarchy, <strong>context engineering</strong>, prompt injection defense, <strong>refusal design</strong></span>
+  <span class="label">Agent Architecture</span>
+  <span class="value"><strong>Multi-agent orchestration</strong>, MCP, sub-agent coordination, <strong>behavioral evaluation</strong>, fallback chains, circuit breakers, autonomous loops</span>
+  <span class="label">Models</span>
+  <span class="value">Claude API (Opus, Sonnet), Gemini API (Pro, Flash), Ollama, Qwen, ChromaDB, RAG (BM25 + dense hybrid), PyTorch, HuggingFace</span>
+  <span class="label">Languages &amp; Stack</span>
+  <span class="value">Python, TypeScript, Kotlin | FastAPI, React, Next.js, PySide6, WebSocket, PostgreSQL, Vercel, GitHub Actions</span>
+</div>
+
+<h2>Experience</h2>
+
+<div class="exp-entry">
+  <div class="exp-header">
+    <h3>Prompt Engineer &amp; AI Systems Architect, Independent</h3>
+    <span class="dates">Feb 2025 &ndash; Present</span>
+  </div>
+  <ul>
+    <li>Author and maintain a library of <strong>behavioral specifications</strong> for Claude Code defining how Claude should think, act, and fail safely across model updates</li>
+    <li>Designed specialized agent architectures (Grader, Security Auditor, LLM Architect, Release Gatekeeper, Debugger, Integration Architect) with behavioral contracts, handoff protocols, and coordination patterns</li>
+    <li>Built <strong>behavioral evaluation frameworks</strong> that detect regressions when new model snapshots ship. When Sonnet 4 dropped, eval suite flagged <strong>refusal boundary shifts</strong> and tool-use pattern drift within hours; retuned affected specs same day</li>
+    <li>Shipped: live conversational AI assistant with lip-synced avatar (5-provider behavioral consistency), autonomous self-reviewing publishing pipeline</li>
+  </ul>
+</div>
+
+<div class="exp-entry">
+  <div class="exp-header">
+    <h3>Certified Driver Trainer, Line Haul Operations</h3>
+    <span class="dates">Previous Career</span>
+  </div>
+  <div class="meta">Old Dominion Freight Line | Peninsula Truck Lines | Alpha Transport</div>
+  <p>Top-3 national freight carrier. FMCSA-regulated operations. Certified trainer: onboarding, evaluating, and signing off new operators.</p>
+</div>
+
+<h2>Certifications</h2>
+<div class="cert-row"><strong>Anthropic Academy</strong> &ndash; All 16 courses (Claude API, Claude Code, MCP, MCP Advanced, Sub-Agents, Agent Skills, Cowork, Bedrock, Vertex AI, AI Fluency suite, AI Capabilities &amp; Limitations)</div>
+<div class="cert-row"><strong>DeepLearning.AI</strong> &ndash; Generative AI with LLMs</div>
+
+
+</body>
+</html>
