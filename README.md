@@ -1,6 +1,6 @@
 # Donald B. Havery
 
-**AI Systems Engineer** &nbsp;·&nbsp; 6 Production Projects &nbsp;·&nbsp; 679+ Automated Tests
+**AI Systems Engineer** &nbsp;·&nbsp; 7 Production Projects &nbsp;·&nbsp; 679+ Automated Tests
 
 [Portfolio](https://dbhavery.dev) &nbsp;|&nbsp; [LinkedIn](https://www.linkedin.com/in/dbhavery)
 
@@ -10,11 +10,11 @@ I design, build, operate, and manage production AI systems on local GPU infrastr
 
 ### What I Build
 
-**Aether** — Conversational AI Assistant
+**Aether** — Local-First AI Companion &nbsp;·&nbsp; [github.com/dbhavery/aether](https://github.com/dbhavery/aether) &nbsp;·&nbsp; [Showcase](https://dbhavery.dev/aether)
 
-Real-time lip-synced avatar, full voice pipeline (wake word, streaming STT, speaker verification, TTS), 6-tier LLM routing across local and cloud models, 30+ tools with risk gating, hybrid vector memory. 14 modules, 535 tests. Desktop, Android, and remote access clients.
+A companion that lives on your machine, remembers you across sessions, and never calls the cloud without your say-so. Seven-layer Rust architecture — **L1 Interaction · L2 Memory · L3 Presence · L4 Router · L5 Policy · L6 Persona · L7 Trust UX**. The policy gate (L5) is non-bypassable: every side effect goes through the approved execution path or the linter blocks the PR. Audit log is SHA-256 hash-chained and HMAC-SHA256 sealed — tamper-evident, not tamper-proof, and the doctrine word matters. 11 crates, 4 timing contracts (250 / 800 / 2000 / 4000 ms), 2 SQLite migrations, MIT. **OSS preview, pre-0.1, active daily.**
 
-`Python` `PyTorch` `CUDA` `PySide6` `Kotlin` `WebSocket` `ChromaDB` `Claude` `Gemini` `Ollama` `LivePortrait` `MuseTalk` `Porcupine` `faster-whisper` `ElevenLabs` `Chatterbox` `ECAPA-TDNN` `Firebase`
+`Rust` `Tauri` `Cargo Workspace` `pnpm` `SQLite` `HMAC-SHA256` `Ollama` `ts-rs` `specta` `cargo-deny`
 
 ---
 
