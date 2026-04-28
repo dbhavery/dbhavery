@@ -44,9 +44,7 @@ What I've shipped (all real, all in production):
 
 — Vault: RAG over 152K personal files. Hybrid retrieval (BM25 + dense), ChromaDB, bge-m3 embeddings. The production-scale data infra version of the same RAG patterns Aether uses.
 
-— Morning Intel: autonomous research-to-publication pipeline. Pulls from 19 sources, drafts, fact-checks, generates a hero image, posts to LinkedIn, scrapes engagement back, feeds the writer prompt. Runs daily, in production for months.
-
-— GSD: multi-agent project orchestration plugin for Claude Code. 8-phase roadmap execution with phase gates and checkpoint state across context resets.
+— Herald: autonomous research-to-publication pipeline. Pulls from 19 sources, drafts, fact-checks, generates a hero image, posts to LinkedIn, scrapes engagement back, feeds the writer prompt. Runs daily, in production for months.
 
 — A self-improvement loop with calibrated evals + 6 mutation strategies + a Grader sub-agent that audits whether the eval assertions themselves discriminate. Catches tests passing for the wrong reasons. Flagged Sonnet 4 refusal-boundary and tool-use shifts within hours of release; retuned affected behavioral specs same day.
 
@@ -157,7 +155,7 @@ The live careers scrape confirms these specific roles are real and open as of 20
 - **PM, Claude Code** — your 509 skills authored is unusually strong PM signal for that team.
 - **SE, Voice Platform** — Aether voice harness is direct evidence; this is one of only 1-2 voice openings at Anthropic.
 - **SE, Developer Productivity** — you build dev productivity tools daily; clean fit.
-- **Developer Advocate / Education** — your portfolio + Morning Intel daily content is exactly the signal this team weights.
+- **Developer Advocate / Education** — your portfolio + Herald daily content is exactly the signal this team weights.
 
 **LET THESE DIE QUIETLY — your evidence doesn't support them:**
 - All Research Engineer roles (Pretraining, RL, Reward Models Platform, Cowork/Virtual Collaborator, Universes, Environment Scaling, Production Model Post-Training)

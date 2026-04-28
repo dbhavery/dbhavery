@@ -1,0 +1,145 @@
+================================================================
+LINKEDIN COPY-PASTE — Don Havery — 2026-04-27
+================================================================
+
+Each section below is ready to copy verbatim into the corresponding
+LinkedIn surface. Use Ctrl+A / Ctrl+C inside each block.
+
+Public project names match the portfolio at dbhavery.dev:
+  Aether (voice agent)  ·  Vault (RAG)  ·  Herald (Morning Intel)
+
+================================================================
+1. HEADLINE  (paste into: profile → pencil next to headline)
+================================================================
+
+Forward-Deployed AI Engineer · Shipped a 7-sub-agent voice harness at 449ms latency · Top 0.1% Claude Code · MCP, Agentic Systems, Evals
+
+================================================================
+2. ABOUT  (paste into: profile → pencil next to About)
+================================================================
+
+I design and ship production agentic systems end-to-end — harness, tools, evals, observability, fine-tuning. I am a Forward-Deployed-shaped engineer: I build with the customer's actual workflow in mind, then go fix the thing that breaks at 2 AM.
+
+What I've shipped (all real, all in production):
+
+— Aether: voice-agent harness with 7 coordinated sub-agents, 5-model routing across Claude / Gemini / Qwen / local Ollama, 449 ms end-to-end voice latency, cross-provider behavioral parity verified. 492 commits, 787 tests. Desktop (PySide6 + Rust/Tauri) + Android + Telegram + WebSocket clients.
+
+— Vault: RAG over 152K personal files. Hybrid retrieval (BM25 + dense), ChromaDB, bge-m3 embeddings. The production-scale data infra version of the same RAG patterns Aether uses.
+
+— Herald: autonomous research-to-publication pipeline. Pulls from 19 sources, drafts, fact-checks, generates a hero image, posts to LinkedIn, scrapes engagement back, feeds the writer prompt. Runs daily, in production for months.
+
+— A self-improvement loop with calibrated evals + 6 mutation strategies + a Grader sub-agent that audits whether the eval assertions themselves discriminate. Catches tests passing for the wrong reasons. Flagged Sonnet 4 refusal-boundary and tool-use shifts within hours of release; retuned affected behavioral specs same day.
+
+42 repos. 1,200+ commits. 1,700+ automated tests. All authored through Claude Code as a daily pair-programmer.
+
+Credentials: Top 0.1% Claude Code user (Anthropic-certified). All 16 Anthropic Academy courses complete. DeepLearning.AI Generative AI with LLMs. B.S. CS in progress at Capella (AI Engineering & Machine Learning concentration).
+
+Operator background in safety-critical, regulated environments — including a certified-trainer role responsible for signing off new operators to work independently. The reliability mindset transfers directly to production AI: prompts, evals, and harnesses are version-controlled product, not throwaway artifacts. When you're wrong, someone gets hurt.
+
+Open to: Forward Deployed Engineer / Applied AI Engineer / Software Engineer (Agent Harness, Evals, Voice) / Member of Technical Staff.
+
+Vancouver, WA — open to Seattle / SF / NYC, remote-first, 25% travel.
+
+================================================================
+3. TOP 3 SKILLS  (Skills section → re-order, pin these as top 3)
+================================================================
+
+1.  Multi-Agent Systems
+2.  Retrieval-Augmented Generation (RAG)
+3.  Model Context Protocol (MCP)
+
+================================================================
+4. FULL SKILLS LIST  (add these in this order; LinkedIn caps at ~30)
+================================================================
+
+Multi-Agent Systems
+Retrieval-Augmented Generation (RAG)
+Model Context Protocol (MCP)
+LLM Evals
+Tool Use / Function Calling
+Claude Code
+Agent Orchestration
+Prompt Engineering
+Forward Deployed Engineering
+Applied AI
+LangGraph
+Python
+TypeScript
+Next.js
+Rust
+Tauri
+FastAPI
+React
+PostgreSQL
+ChromaDB
+Vector Databases
+WebSocket
+Playwright
+LoRA Fine-Tuning
+Hugging Face
+PyTorch
+Voice AI
+Real-Time Systems
+Observability
+Production Reliability
+
+REMOVE THESE if currently on your profile:
+- Machine Learning  (raises a credential question)
+- MLOps             (renamed to "AI Infra" in 2026)
+- Artificial Intelligence  (signals 2023-era profile)
+- Prompt Engineer  (as a TITLE; the SKILL "Prompt Engineering" stays)
+- Anything tagged "Beginner" / "Intermediate"
+
+================================================================
+5. FEATURED  (Featured section → pin these 3 items, in this order)
+================================================================
+
+1.  Top 0.1% Claude Code Power User certificate
+2.  dbhavery.dev portfolio link
+3.  Aether GitHub repo  (github.com/dbhavery/aether)
+
+================================================================
+6. OPEN-TO-WORK TAGS  (open-to-work frame → target titles)
+================================================================
+
+Forward Deployed Engineer
+Applied AI Engineer
+Software Engineer
+Member of Technical Staff
+Solutions Architect
+AI Engineer
+Developer Advocate
+
+LOCATIONS:  Seattle, Bellevue, San Francisco, New York, Remote
+
+================================================================
+7. ANTHROPIC OPEN-APPS TRIAGE
+================================================================
+
+KEEP IN PIPELINE — your evidence supports these:
+  - Prompt Engineer, Claude Code
+  - Applied AI Engineer (Digital Natives Business)
+  - Forward Deployed Engineer  (any of 7+ live variants)
+  - PM, Claude Code
+  - Software Engineer, Voice Platform
+  - Software Engineer, Developer Productivity
+  - Developer Advocate / Education
+
+LET DIE QUIETLY — evidence does not support, will rejection-mail anyway:
+  - All Research Engineer roles  (Pretraining, RL, Reward Models Platform,
+    Cowork / Virtual Collaborator, Universes, Environment Scaling,
+    Production Model Post-Training)
+  - Senior Research Scientist (Reward Models)
+  - Anthropic Fellows  (ML Systems & Performance, RL, AI Safety,
+    AI Security, Base)
+  - Cloud Inference Safeguards
+
+POST-COOLDOWN  (after ~Oct 2026):
+  Next Anthropic touch must be a WARM INTRO via a Claude Code or
+  Applied AI / FDE / DevRel team member.  NOT another cold app.
+  Volume already triggered the rate-limit; the next shot must be
+  referred.
+
+================================================================
+END OF FILE
+================================================================
