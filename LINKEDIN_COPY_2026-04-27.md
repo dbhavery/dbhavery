@@ -50,7 +50,7 @@ What I've shipped (all real, all in production):
 
 42 repos. 1,200+ commits. 1,700+ automated tests. All authored through Claude Code as a daily pair-programmer.
 
-Credentials: Top 0.1% Claude Code user (Anthropic-certified). All 16 Anthropic Academy courses complete. DeepLearning.AI Generative AI with LLMs. B.S. CS in progress at Capella (AI Engineering & Machine Learning concentration).
+Credentials: Top 0.1% Claude Code user (Anthropic-certified). All 16 Anthropic Academy courses complete. DeepLearning.AI Generative AI with LLMs. M.S. Cybersecurity & Applied AI in progress at Capella.
 
 Operator background in safety-critical, regulated environments — including a certified-trainer role responsible for signing off new operators to work independently. The reliability mindset transfers directly to production AI: prompts, evals, and harnesses are version-controlled product, not throwaway artifacts. When you're wrong, someone gets hurt.
 
