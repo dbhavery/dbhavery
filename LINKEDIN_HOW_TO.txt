@@ -1,0 +1,316 @@
+================================================================
+LINKEDIN HOW-TO — Step-by-Step (Verified April 2026)
+================================================================
+
+Four manual tasks left.  Total time: ~10 minutes.
+
+Sources at the bottom of this file.  All steps verified against
+LinkedIn Help Center pages dated 2025-2026 and the latest UI on
+your account, 2026-04-27.
+
+================================================================
+TASK 1 — Pin Top 3 Skills:  Forward Deployed Engineering /
+                            Applied AI / Agent Orchestration
+================================================================
+
+LinkedIn DOES still allow manual drag-and-drop reorder.  The
+top 3 positions act as the "pinned" Top Skills (no separate
+pin toggle — position 1-3 IS the pin).
+
+Steps:
+
+  1. Go to your profile page.
+     URL:  https://www.linkedin.com/in/dbhavery/
+
+  2. Scroll down to the "Skills" section.
+
+  3. Click the PENCIL icon at the TOP-RIGHT of the section card.
+     (Not on individual skill rows — at the section header level.)
+
+  4. In the edit panel, click the THREE-DOT overflow at the
+     top-right, then click the up-down "Reorder" icon.
+
+  5. Hover over a skill row.  A HAMBURGER drag handle appears
+     on the LEFT side of the row.
+
+  6. Drag-and-drop into this order:
+
+        1.  Forward Deployed Engineering
+        2.  Applied AI
+        3.  Agent Orchestration
+
+     The first 3 render as "Top Skills" on your profile and on
+     the recruiter search-result card.
+
+  7. Click X to exit edit mode.  Changes save on drop.
+
+Browser tip:
+  Chrome is the most reliable.  Safari has had drag-and-drop
+  bugs through 2025.  Use Chrome on desktop, not the mobile app
+  (the mobile drag handle is finicky).
+
+
+================================================================
+TASK 2 — Pin the Top 0.1% Claude Code Power User post to Featured
+================================================================
+
+Two paths.  Path A is fastest because it skips the search modal.
+
+PATH A — from the post itself (recommended):
+
+  1. Go to your Activity feed.
+     URL:  https://www.linkedin.com/in/dbhavery/recent-activity/all/
+
+  2. Find the existing post about being a Top 0.1% Claude Code
+     Power User.
+
+  3. Click the THREE-DOT MENU at the top-right of that post.
+
+  4. Select  "Feature on top of profile"
+     (Older copy says "Add to Featured" — same action.)
+
+  5. Confirms instantly.  Post appears in Featured.
+
+PATH B — from the Featured section:
+
+  1. Profile → scroll to Featured section.
+
+  2. Click the  + (plus icon)  at top-right of the section.
+
+  3. Choose  "Add a post"   (NOT "Add a link" — that creates a
+     URL preview card, which is what you want to AVOID for
+     this credential.)
+
+  4. Scroll the modal of your authored posts and select the
+     Top 0.1% post.
+
+  5. Click  Save.
+
+REORDER FEATURED:
+  Profile → Featured section pencil → drag tiles → Save.
+  Only the first 2 tiles render above the fold on a recruiter
+  visit.  Order should be:
+
+    1.  Top 0.1% Claude Code Power User post   (best signal)
+    2.  dbhavery.dev portfolio link             (already pinned)
+    3.  Companion case study  (added once Task 4 below ships)
+
+
+================================================================
+TASK 3 — Verify / Set Open-to-Work target titles + locations
+================================================================
+
+The /jobs/career-interests/ URL has been retired.  The current
+canonical surface is the profile-level "Open to" panel.
+
+CURRENT STATE  (verified live on your account 2026-04-27):
+  Job titles:        Machine Learning Engineer · Generative AI
+                     Engineer · Software Engineer
+  Location types:    Remote only  (On-site / Hybrid OFF)
+  Locations:         Portland Oregon · Seattle WA
+  Employment type:   Full-time · Part-time · Contract  ✓
+  Visibility:        Recruiters only  (no green frame)
+
+CHANGES TO MAKE:
+  Job titles:        REMOVE Machine Learning Engineer + Generative AI
+                     Engineer.  KEEP Software Engineer.
+                     ADD: Forward Deployed Engineer, Applied AI
+                     Engineer, Member of Technical Staff,
+                     Solutions Architect.
+                     (5 titles max — that fills the cap.)
+  Location types:    Toggle ON-SITE and HYBRID  (in addition to
+                     Remote already on).  All 3 = widest funnel.
+  Locations:         ADD San Francisco Bay Area, New York City,
+                     Vancouver WA  (5 locations max — drop
+                     Portland Oregon if needed; Seattle stays).
+  Visibility:        Change to  "All LinkedIn members"  for green
+                     #OPENTOWORK frame.  Strongest public signal.
+                     Your day job (line-haul) won't be browsing
+                     LinkedIn for AI engineers, so the
+                     hide-from-employer logic doesn't matter.
+
+VERIFIED CLICK PATH (confirmed live on your account):
+
+  1. Profile page.  URL: https://www.linkedin.com/in/dbhavery/
+
+  2. The "Open to work" CARD already exists below your name
+     (since OTW is currently active).  Click that card link.
+     A summary panel opens.
+
+  3. In the summary panel, click the small PENCIL icon
+     labeled  "Edit Open to Work preferences".
+     A summary modal opens showing your current settings as
+     plain text  (not editable here yet — this is read-only).
+
+  4. Inside the summary modal, click the link/pencil
+     "Edit job preferences"  near the top.
+     The editable form opens.
+
+  5. EDIT THE FIELDS:
+
+     A. Job titles  (cap = 5):
+        - REMOVE the existing  "Machine Learning Engineer"
+          chip — click the  X  on the chip.
+        - REMOVE the existing  "Generative AI Engineer"  chip.
+        - KEEP  "Software Engineer".
+        - Click  "Add title"  4 times to add:
+            Forward Deployed Engineer
+            Applied AI Engineer
+            Member of Technical Staff
+            Solutions Architect
+
+     B. Location types  (these are toggle checkboxes):
+        - Remote   ✓  already on
+        - On-site  TURN ON
+        - Hybrid   TURN ON
+        (All 3 = widest recruiter funnel.)
+
+     C. Locations  (cap = 5):
+        - Seattle, Washington, United States  ✓ already there
+        - Portland, Oregon Metropolitan Area  ✓ already there
+          (You may keep or remove this one — it's your nearest
+          metro and useful as a backup.)
+        - Click  "Add location"  to add:
+            San Francisco Bay Area
+            New York City Metropolitan Area
+            Vancouver, WA (if not already covered by Portland metro)
+
+     D. Employment type:
+        - Full-time  ✓
+        - Contract   ✓  (good — keeps consulting open)
+        - Part-time  ✓ or off  (your call)
+
+  6. Click  Save  at the bottom of the form.
+
+  7. Back in the summary modal, click  "Edit visibility".
+
+  8. Change visibility from  "Recruiters only"  to
+     "All LinkedIn members".
+     This puts the green #OPENTOWORK frame on your photo —
+     strongest public signal that you're available.
+     Your day job (line-haul) won't be browsing LinkedIn for
+     AI engineers, so the hide-from-employer logic doesn't
+     matter.
+
+  9. Click  Save.
+
+  10. Allow 24-48 hours for LinkedIn's recommendation engine
+      to recompute and start surfacing matched roles in your
+      feed.
+
+ALTERNATE PATH:
+  Jobs tab  →  left rail "Preferences"  →  arrow next to
+  "Open to work"  →  same modal.
+
+Free vs Premium:  identical preferences panel.  Premium adds
+"Top Applicant" boosts and InMail visibility but doesn't change
+this UI.
+
+
+================================================================
+TASK 4 — Fix Companion case-study link preview on /aether
+        (Next.js per-route Open Graph metadata)
+================================================================
+
+WHY:  When LinkedIn fetches https://dbhavery.dev/aether for a
+link preview, it currently falls back to dbhavery.dev root meta.
+That's why the "Add a link" feature pinned dbhavery.dev twice
+instead of differentiating /aether.  Fix needs to happen on the
+portfolio side.
+
+This belongs to the OTHER Claude Code agent working on the
+portfolio.  Pass them this section.
+
+CANONICAL PATTERN (Next.js 15 App Router):
+
+  Add to file:  app/aether/page.tsx
+
+  ```tsx
+  import type { Metadata } from 'next';
+
+  export const metadata: Metadata = {
+    title: 'Companion — Don Havery',
+    description: 'Voice-agent harness with 7 sub-agents and '
+               + 'cross-provider behavioral parity at 449ms.',
+    openGraph: {
+      title: 'Companion — Voice-Agent Harness',
+      description: '7 coordinated sub-agents · 5-model routing · '
+                 + '449ms end-to-end voice latency.',
+      url: 'https://dbhavery.dev/aether',
+      images: [{
+        url: '/og/companion.png',
+        width: 1200,
+        height: 630,
+        alt: 'Companion case study',
+      }],
+      type: 'website',
+    },
+  };
+  ```
+
+ROOT LAYOUT also needs:
+
+  Add to file:  app/layout.tsx
+
+  ```tsx
+  export const metadata: Metadata = {
+    metadataBase: new URL('https://dbhavery.dev'),
+    // ... rest of the metadata
+  };
+  ```
+
+  Without metadataBase, LinkedIn pulls relative image paths
+  (/og/companion.png) against localhost during build → shows
+  nothing.
+
+GOTCHA:  generateMetadata is silently dropped if the page uses
+'use client' or is wrapped in a client-only layout.  Verify
+server-rendering with:
+
+    curl -A "LinkedInBot/1.0" https://dbhavery.dev/aether | grep og:
+
+You should see og:title, og:description, og:image lines pointing
+at the Companion-specific values.
+
+AFTER DEPLOY:  force LinkedIn to re-scrape using the official
+post inspector:
+
+    https://www.linkedin.com/post-inspector/
+
+Paste https://dbhavery.dev/aether and click Inspect.  This
+flushes LinkedIn's cache so the next time anyone shares /aether,
+the correct preview lands.
+
+Per-route metadata should also be added for the other showcase
+routes (/cige → Darkroom, /herald → Wire, /vault → Albums, etc.)
+so each gets its own LinkedIn preview.
+
+
+================================================================
+SOURCES
+================================================================
+
+- https://www.linkedin.com/help/linkedin/answer/a568137
+    Display Order of Skills
+
+- https://www.linkedin.com/help/linkedin/answer/a552452
+    Featured Section FAQs
+
+- https://www.linkedin.com/help/linkedin/answer/a1513395
+    Add profile content to Featured
+
+- https://www.linkedin.com/help/linkedin/answer/a512279
+    Open to Work / Jobs recommended for you / preferences
+
+- https://nextjs.org/docs/app/api-reference/functions/generate-metadata
+    Next.js generateMetadata API
+
+- https://nextjs.org/docs/app/api-reference/file-conventions/metadata/opengraph-image
+    Next.js OpenGraph image conventions
+
+- https://www.linkedin.com/post-inspector/
+    LinkedIn Post Inspector — force re-scrape
+
+================================================================
+END OF FILE
+================================================================
