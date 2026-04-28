@@ -40,11 +40,11 @@ I design and ship production agentic systems end-to-end — harness, tools, eval
 
 What I've shipped (all real, all in production):
 
-— Aether: voice-agent harness with 7 coordinated sub-agents, 5-model routing across Claude / Gemini / Qwen / local Ollama, 449 ms end-to-end voice latency, cross-provider behavioral parity verified. 492 commits, 787 tests. Desktop (PySide6 + Rust/Tauri) + Android + Telegram + WebSocket clients.
+— Companion: voice-agent harness with 7 coordinated sub-agents, 5-model routing across Claude / Gemini / Qwen / local Ollama, 449 ms end-to-end voice latency, cross-provider behavioral parity verified. 492 commits, 787 tests. Desktop (PySide6 + Rust/Tauri) + Android + Telegram + WebSocket clients.
 
-— Vault: RAG over 152K personal files. Hybrid retrieval (BM25 + dense), ChromaDB, bge-m3 embeddings. The production-scale data infra version of the same RAG patterns Aether uses.
+— Albums: RAG over 152K personal files. Hybrid retrieval (BM25 + dense), ChromaDB, bge-m3 embeddings. The production-scale data infra version of the same RAG patterns Companion uses.
 
-— Herald: autonomous research-to-publication pipeline. Pulls from 19 sources, drafts, fact-checks, generates a hero image, posts to LinkedIn, scrapes engagement back, feeds the writer prompt. Runs daily, in production for months.
+— Wire: autonomous research-to-publication pipeline. Pulls from 19 sources, drafts, fact-checks, generates a hero image, posts to LinkedIn, scrapes engagement back, feeds the writer prompt. Runs daily, in production for months.
 
 — A self-improvement loop with calibrated evals + 6 mutation strategies + a Grader sub-agent that audits whether the eval assertions themselves discriminate. Catches tests passing for the wrong reasons. Flagged Sonnet 4 refusal-boundary and tool-use shifts within hours of release; retuned affected behavioral specs same day.
 
@@ -122,7 +122,7 @@ Replace whatever's currently pinned with these three:
 
 1. **Top 0.1% Claude Code Power User certificate** — your highest-leverage credibility hook.
 2. **dbhavery.dev portfolio link** — concrete artifacts, your strongest non-resume signal.
-3. **Aether GitHub repo** (github.com/dbhavery/aether) — the single most evidentiary project.
+3. **Companion case study** (dbhavery.dev/aether) — the single most evidentiary project.
 
 ---
 
@@ -153,9 +153,9 @@ The live careers scrape confirms these specific roles are real and open as of 20
 - **Applied AI Engineer (Digital Natives Business)** — Applied AI is Anthropic's largest single team build-out (15+ open).
 - **Forward Deployed Engineer (any of 7+ variants)** — if any are in your batch, these are your strongest fit. If not, add them post-cooldown.
 - **PM, Claude Code** — your 509 skills authored is unusually strong PM signal for that team.
-- **SE, Voice Platform** — Aether voice harness is direct evidence; this is one of only 1-2 voice openings at Anthropic.
+- **SE, Voice Platform** — Companion voice harness is direct evidence; this is one of only 1-2 voice openings at Anthropic.
 - **SE, Developer Productivity** — you build dev productivity tools daily; clean fit.
-- **Developer Advocate / Education** — your portfolio + Herald daily content is exactly the signal this team weights.
+- **Developer Advocate / Education** — your portfolio + Wire daily content is exactly the signal this team weights.
 
 **LET THESE DIE QUIETLY — your evidence doesn't support them:**
 - All Research Engineer roles (Pretraining, RL, Reward Models Platform, Cowork/Virtual Collaborator, Universes, Environment Scaling, Production Model Post-Training)

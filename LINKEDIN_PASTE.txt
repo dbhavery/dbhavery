@@ -6,7 +6,7 @@ Each section below is ready to copy verbatim into the corresponding
 LinkedIn surface. Use Ctrl+A / Ctrl+C inside each block.
 
 Public project names match the portfolio at dbhavery.dev:
-  Aether (voice agent)  ·  Vault (RAG)  ·  Herald (Morning Intel)
+  Companion (voice agent)  ·  Albums (self-hosted photos + RAG)  ·  Wire (morning auto-poster)
 
 ================================================================
 1. HEADLINE  (paste into: profile → pencil next to headline)
@@ -22,11 +22,11 @@ I design and ship production agentic systems end-to-end — harness, tools, eval
 
 What I've shipped (all real, all in production):
 
-— Aether: voice-agent harness with 7 coordinated sub-agents, 5-model routing across Claude / Gemini / Qwen / local Ollama, 449 ms end-to-end voice latency, cross-provider behavioral parity verified. 492 commits, 787 tests. Desktop (PySide6 + Rust/Tauri) + Android + Telegram + WebSocket clients.
+— Companion: voice-agent harness with 7 coordinated sub-agents, 5-model routing across Claude / Gemini / Qwen / local Ollama, 449 ms end-to-end voice latency, cross-provider behavioral parity verified. 492 commits, 787 tests. Desktop (PySide6 + Rust/Tauri) + Android + Telegram + WebSocket clients.
 
-— Vault: RAG over 152K personal files. Hybrid retrieval (BM25 + dense), ChromaDB, bge-m3 embeddings. The production-scale data infra version of the same RAG patterns Aether uses.
+— Albums: RAG over 152K personal files. Hybrid retrieval (BM25 + dense), ChromaDB, bge-m3 embeddings. The production-scale data infra version of the same RAG patterns Companion uses.
 
-— Herald: autonomous research-to-publication pipeline. Pulls from 19 sources, drafts, fact-checks, generates a hero image, posts to LinkedIn, scrapes engagement back, feeds the writer prompt. Runs daily, in production for months.
+— Wire: autonomous research-to-publication pipeline. Pulls from 19 sources, drafts, fact-checks, generates a hero image, posts to LinkedIn, scrapes engagement back, feeds the writer prompt. Runs daily, in production for months.
 
 — A self-improvement loop with calibrated evals + 6 mutation strategies + a Grader sub-agent that audits whether the eval assertions themselves discriminate. Catches tests passing for the wrong reasons. Flagged Sonnet 4 refusal-boundary and tool-use shifts within hours of release; retuned affected behavioral specs same day.
 
@@ -96,7 +96,7 @@ REMOVE THESE if currently on your profile:
 
 1.  Top 0.1% Claude Code Power User certificate
 2.  dbhavery.dev portfolio link
-3.  Aether GitHub repo  (github.com/dbhavery/aether)
+3.  Companion case study  (dbhavery.dev/aether)
 
 ================================================================
 6. OPEN-TO-WORK TAGS  (open-to-work frame → target titles)
