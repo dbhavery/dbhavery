@@ -1,0 +1,71 @@
+# =====================================================================
+# This is the PUBLIC profile repo (github.com/dbhavery/dbhavery).
+# ONLY the README + public-facing résumé belong here. Everything below
+# is internal job-search material and must NEVER be committed/public.
+# =====================================================================
+
+# Internal strategy / handoffs / session scratch
+HANDOFF_*.md
+NEXT_SESSION_PROMPT*.md
+APPLY_LOG_*.md
+FINAL_REPORT_*.md
+AI_ENGINEER_TITLE_RESEARCH*.md
+PROJECT_USE_PHRASES*.md
+PROFILE_SYNC*.html
+
+# LinkedIn copy / how-to / drafts (job-search strategy)
+LINKEDIN_*.md
+LINKEDIN_*.txt
+LINKEDIN_POSTS_*.md
+linkedin-*.md
+linkedin_history/
+linkedin_engagement.jsonl
+morning_post.py
+engagement.py
+notify_window.py
+notify_toast.ps1
+run_morning_post.cmd
+
+# Anthropic application packages (tailored, dormant — never public)
+*anthropic*.html
+*anthropic*.pdf
+*anthropic*.md
+resume-anthropic*
+cover-letter-anthropic*
+Donald_Havery_Resume_Anthropic_*
+Donald_Havery_Cover_Letter_Anthropic_*
+build_anthropic_pkgs.py
+generate_anthropic_pdfs.py
+generate_all_pdfs.py
+why-anthropic-*.md
+
+# Self-made cert graphics (unverifiable / banned claim) + internal certs
+certificates/
+
+# Screenshots / scratch / tooling
+_li_screenshots/
+jds/
+.claude/
+.playwright-cli/
+.audit/
+
+# Brand / voice / strategy docs — private
+BRAND_*
+VOICE_*
+STRATEGY_*
+SOTA_*
+content_radar.py
+LINKEDIN_RADAR_*
+run_radar.cmd
+content_radar.log
+morning_post.py
+notify_toast.ps1
+linkedin_today.*
+run_morning_post.cmd
+morning_post.log
+notify_window.py
+# generated LinkedIn research artifacts (IntelRadar enrichment: video transcripts,
+# sampled frames/screenshots, and review-page images)
+transcripts/
+frames/
+ornith_*.jpg
