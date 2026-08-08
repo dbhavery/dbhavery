@@ -64,8 +64,12 @@ linkedin_today.*
 run_morning_post.cmd
 morning_post.log
 notify_window.py
+linkedin_visuals/
 # generated LinkedIn research artifacts (IntelRadar enrichment: video transcripts,
 # sampled frames/screenshots, and review-page images)
 transcripts/
 frames/
 ornith_*.jpg
+FELLOWS_*
+linkedin-*
+__pycache__/

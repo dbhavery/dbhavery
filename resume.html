@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Donald B. Havery — Applied AI Systems Engineer (Agentic Systems, RAG, Evals)</title>
+<title>Donald B. Havery - Applied AI Engineer, Forward Deployed Focus</title>
 <style>
 @page { size: letter; margin: 0.4in 0.55in; }
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -27,121 +27,83 @@ strong { font-weight: 700; }
 .exp-entry { margin-bottom: 5px; }
 .exp-header { display: flex; justify-content: space-between; align-items: baseline; }
 .exp-header .dates { font-size: 9pt; color: #555; white-space: nowrap; }
-a { color: inherit; text-decoration: none; }
+a { color: inherit; text-decoration: underline; }
 </style>
 </head>
 <body>
 <h1>DONALD B. HAVERY</h1>
-<div class="subtitle">Applied AI Systems Engineer &middot; AI systems engineered for production &middot; Agentic Orchestration &middot; RAG &amp; Context Engineering &middot; Eval Gates &middot; Security Controls &middot; MCP &middot; Local-First</div>
+<div class="subtitle">Applied AI Engineer, Forward-Deployed Focus &middot; Audit, Evals, Deployment for Production AI Systems &middot; Agentic Orchestration &middot; RAG &amp; Context Engineering &middot; Eval Gates &middot; Security Controls &middot; MCP &middot; Local-First</div>
 <div class="contact">Portland, OR Metro Area (open to Seattle / SF / NYC, remote-first, 25% travel) &nbsp;|&nbsp; <a href="mailto:dbhavery@gmail.com">dbhavery@gmail.com</a> &nbsp;|&nbsp; <a href="https://github.com/dbhavery">github.com/dbhavery</a> &nbsp;|&nbsp; <a href="https://linkedin.com/in/dbhavery">linkedin.com/in/dbhavery</a> &nbsp;|&nbsp; <a href="https://dbhavery.dev">dbhavery.dev</a></div>
 
 <h2>Summary</h2>
-<p class="summary">Applied AI systems engineer. I build the engineering around the models that gets them into production: agent orchestration, RAG, eval gates, and security controls. The fastest proof is public and measurable. Three MIT, CI-green builds on GitHub: an <strong>LLM reliability gateway</strong> with cross-provider failover (115 tests), an <strong>evaluation release gate</strong> that exits non-zero on regression (54 tests), and an <strong>agent orchestration reliability harness</strong> with typed tools, bounded retries, and an unsafe-action gate (45 tests), plus a published paper on reference-relative believability (Zenodo DOI). Broader work: <strong>Companion</strong> (local-first voice assistant; 7-provider model router; 12-persona system), <strong>Albums</strong> (RAG over ~3,600 indexed items), and <strong>Wire</strong> (an unattended pipeline that researched and published a daily brief, 35 posts in production). 38 repos, 3,300+ commits, 5,000+ tests authored; heavy Claude Code user with 25+ skills of my own. Before software I founded and ran my own businesses end-to-end and certified new operators to a federal standard inside safety-critical, DOT-regulated work, so I build software already knowing what it has to do for the business that depends on it.</p>
+<p class="summary">I turn commodity AI into working software inside a real business: audit the workflow, prove it with evals, deploy it with an audit trail people can trust. Proof below is public, cloneable, and CI-green, not claimed. 35 repos, 6,100+ commits, 9,500+ tests authored.</p>
 
 <h2>Representative Projects</h2>
 <div class="project">
-  <h3>An LLM reliability gateway with cross-provider failover (Citadel)</h3>
-  <div class="meta">Python &middot; FastAPI &middot; HNSW (pure NumPy) &middot; 115 tests &middot; MIT &middot; public &middot; CI green &middot; <a href="https://github.com/dbhavery/citadel">github.com/dbhavery/citadel</a></div>
-  <ul>
-    <li>An OpenAI-compatible control layer for LLM traffic: provider priorities with real <strong>cross-provider failover</strong>, circuit breakers, semantic cache, and a from-scratch <strong>HNSW vector engine</strong> in pure NumPy (built from Malkov &amp; Yashunin 2018; no FAISS / pgvector). Public code, MIT, green CI, cloneable tests</li>
-  </ul>
+  <h3><a href="https://github.com/dbhavery/control-evidence-review">Policy-control evidence review</a></h3>
+  <div class="meta">Audit stage &middot; per-control verdicts against matched evidence, append-only audit log &middot; 40 tests &middot; MIT</div>
 </div>
 <div class="project">
-  <h3>An evaluation release gate for LLM &amp; RAG behavior (eval-gate)</h3>
-  <div class="meta">Python &middot; 54 tests &middot; MIT &middot; public &middot; CI green &middot; <a href="https://github.com/dbhavery/eval-gate">github.com/dbhavery/eval-gate</a></div>
-  <ul>
-    <li>Prompt assertions, retrieval precision / recall / MRR / nDCG, citation grounding, and baseline comparison &mdash; runs offline and deterministic, then <strong>exits non-zero when a case regresses</strong>, so a bad model change fails the build instead of reaching production</li>
-  </ul>
+  <h3><a href="https://github.com/dbhavery/eval-gate">LLM &amp; RAG evaluation release gate</a></h3>
+  <div class="meta">Evals stage &middot; exits non-zero when a case regresses against baseline &middot; 54 tests &middot; MIT</div>
 </div>
 <div class="project">
-  <h3>An agent orchestration reliability harness (agent-harness)</h3>
-  <div class="meta">Python &middot; 45 tests &middot; MIT &middot; public &middot; CI green &middot; <a href="https://github.com/dbhavery/agent-harness">github.com/dbhavery/agent-harness</a></div>
-  <ul>
-    <li>A deterministic agent loop built around production failure modes: typed tool schemas, structured JSONL traces, bounded retries and fallback, an <strong>unsafe-action gate</strong>, and explicit failure classification (timeout, malformed output, missing context, unsafe request)</li>
-  </ul>
+  <h3><a href="https://github.com/dbhavery/agent-harness">Agent orchestration reliability harness</a></h3>
+  <div class="meta">Deploy stage &middot; unsafe-action gate, six-class failure taxonomy &middot; 45 tests &middot; MIT</div>
 </div>
 <div class="project">
-  <h3>A local-first voice assistant with a 7-provider model router (Companion)</h3>
-  <div class="meta">Python &middot; Rust + Tauri &middot; PySide6 &middot; Android &middot; 695 commits &middot; 345 tests</div>
-  <ul>
-    <li><strong>7-provider model router</strong> (Claude, Gemini, Qwen, local Ollama, OpenAI, Groq, OpenRouter) with 3-tier complexity routing &mdash; regex, then keyword, then an LLM classifier &mdash; choosing the right model per request</li>
-    <li><strong>Context engineering:</strong> ChromaDB hybrid retrieval (BM25 + dense embeddings), tiered memory, MCP integration, async tool execution; <strong>12-persona system</strong> with consistent behavior and failover across providers; sub-500 ms latency budget</li>
-  </ul>
+  <h3><a href="https://github.com/dbhavery/citadel">LLM reliability gateway</a></h3>
+  <div class="meta">Cross-provider failover, from-scratch HNSW &middot; 118 tests &middot; MIT</div>
 </div>
 <div class="project">
-  <h3>Semantic file library with RAG chat, and an unattended research-to-publish pipeline (Albums &amp; Wire)</h3>
-  <div class="meta">FastAPI &middot; React &middot; ChromaDB &middot; Python cron</div>
-  <ul>
-    <li><strong>Albums</strong> &mdash; self-hosted Google Photos / Drive replacement: semantic search and RAG chat over ~3,600 indexed media items, the same retrieval patterns Companion uses on a larger corpus</li>
-    <li><strong>Wire</strong> &mdash; a self-reviewing pipeline that pulled ~18 sources, drafted, fact-checked, generated a hero image, and auto-published a daily brief with no human in the loop; 35 posts in production before I parked it</li>
-  </ul>
-</div>
-<div class="project">
-  <h3>Additional public builds &amp; reusable tooling</h3>
-  <div class="meta">MIT &middot; public &middot; github.com/dbhavery</div>
-  <ul>
-    <li><strong>control-evidence-review</strong> (policy/control &rarr; evidence verdicts with redaction and an append-only audit log, 40 tests), <strong>text-to-CAD</strong> (local plain-English &rarr; OpenSCAD loop with a vision-model repair pass, 23 tests), <strong>Graticule</strong> (live-data situational-awareness globe). 25+ reusable Claude Code skills and agent specs, each with explicit refusal boundaries and verification gates</li>
-  </ul>
+  <h3>Also public</h3>
+  <div class="meta">Local-first desktop AI assistant with a non-bypassable policy gate &middot; self-hosted RAG file library &middot; unattended research-to-publish pipeline &middot; <a href="https://github.com/dbhavery/textcad">self-correcting text-to-CAD loop</a> &middot; situational-awareness globe &middot; 25+ reusable Claude Code skills &middot; <a href="https://github.com/dbhavery">github.com/dbhavery</a></div>
 </div>
 
 <h2>Technical Skills</h2>
 <div class="skills-grid">
   <span class="label">Agentic &amp; Tool Use</span>
-  <span class="value"><strong>Multi-agent orchestration</strong>, sub-agent coordination, intent routing, autonomous loops, tool use / function calling at scale, <strong>MCP</strong> (production integrations, custom servers), behavioral specs, fallback chains</span>
+  <span class="value">Multi-agent orchestration, intent routing, autonomous loops, MCP, fallback chains</span>
   <span class="label">RAG &amp; Retrieval</span>
-  <span class="value"><strong>Hybrid retrieval</strong> (BM25 + dense), ChromaDB, from-scratch HNSW, sentence-transformer embeddings, tiered memory, context engineering</span>
+  <span class="value">Hybrid retrieval (BM25 + dense), ChromaDB, from-scratch HNSW, context engineering</span>
   <span class="label">Evals &amp; Reliability</span>
-  <span class="value"><strong>Deterministic offline assertions</strong>, adversarial &amp; canary probes, meta-evaluation, regression detection, CI exit-code gating; circuit breakers, bulkhead isolation, retry budgets, observability for AI</span>
+  <span class="value">Deterministic offline assertions, regression detection, CI exit-code gating, circuit breakers, retry budgets</span>
   <span class="label">Claude Code</span>
-  <span class="value"><strong>Heavy Claude Code user</strong> &mdash; 3,300+ commits authored through it, 25+ skills and custom agents of my own, plugin development</span>
+  <span class="value">Heavy user, 6,100+ commits authored through it, 25+ skills and agents of my own</span>
   <span class="label">LLM Stack</span>
-  <span class="value">Claude (Opus/Sonnet/Haiku), Gemini, Qwen, Ollama local serving; cross-provider parity, latency budgets; LoRA / QLoRA fine-tuning (image-domain LoRA shipped), HuggingFace, PyTorch</span>
+  <span class="value">Claude, Gemini, Qwen, Ollama local serving; provider-agnostic routing; LoRA / QLoRA fine-tuning</span>
   <span class="label">Backend &amp; Product</span>
-  <span class="value">Python (asyncio, FastAPI), Rust (Tauri, tokio), Node.js, PostgreSQL / SQLite / Redis, Docker, GitHub Actions; Next.js, React 19, TypeScript, PySide6 desktop</span>
-  <span class="label">Operations &amp; Ventures</span>
-  <span class="value"><strong>Founder / owner-operator</strong>: business operations, DTC e-commerce, product formulation &amp; small-batch manufacturing, brand &amp; marketing, supply chain &amp; fulfillment; investigative case management; HAZMAT-certified regulated transport (DOT/FMCSA), risk &amp; safety management</span>
+  <span class="value">Python (FastAPI), Rust (Tauri), Node.js, Postgres / SQLite / Redis, Docker; Next.js, React 19, TypeScript</span>
 </div>
 
 <h2>Experience</h2>
 <div class="exp-entry">
   <div class="exp-header">
-    <h3>Applied AI Systems Engineer &mdash; Independent</h3>
+    <h3>Applied AI Engineer, Forward-Deployed Focus, Independent</h3>
     <span class="dates">Current</span>
   </div>
   <ul>
-    <li>Design and ship production agentic systems end-to-end: orchestration, tools, retrieval, evaluation, security controls, fine-tuning. 38 repos, 3,300+ commits, 5,000+ automated tests authored</li>
-    <li>Published three MIT, CI-green proof builds &mdash; an LLM reliability gateway, an eval release gate that fails the build on regression, and an agent reliability harness &mdash; each with cloneable tests and inspectable reports</li>
-    <li>Operate as a Claude Code pair-programmer daily; keep prompts, evals, and harnesses in version control and under test, the same as any other production code</li>
-    <li>Public portfolio at <a href="https://dbhavery.dev">dbhavery.dev</a> leads with the three flagship builds, real screenshots, and a published research paper; every flagship card opens a public repo you can clone and test</li>
+    <li>Audit, prove, deploy: proof below, cloneable and tested, not claimed</li>
+    <li>Daily Claude Code pair-programmer; prompts and evals kept in version control like any other production code</li>
+    <li>Portfolio at <a href="https://dbhavery.dev">dbhavery.dev</a></li>
   </ul>
 </div>
 <div class="exp-entry">
   <div class="exp-header">
-    <h3>Founder &amp; Owner-Operator &mdash; Independent Ventures</h3>
+    <h3>Other Experience</h3>
   </div>
-  <ul>
-    <li><strong>Original Lumberjack</strong> &mdash; premium men's grooming, DTC e-commerce. Ran the whole business solo: formulated products from raw ingredients, manufactured in small batches, designed the brand, packaging, and labeling, and handled marketing, fulfillment, shipping, and customer service</li>
-    <li><strong>Precision Investigations</strong> &mdash; independent case work: investigative research, surveillance, case management, evidence handling, client reporting, and strict confidentiality</li>
-    <li><strong>Sta-Full</strong> (fleet-fueling logistics) and <strong>angrynirds</strong> (a remote, contract AI-engineering collective, currently building) &mdash; scoped, branded, and stood up independently</li>
-    <li>Every venture built and run end-to-end by one person, alongside full-time work</li>
-  </ul>
-</div>
-<div class="exp-entry">
-  <div class="exp-header">
-    <h3>Operations &amp; Safety-Critical Logistics &mdash; Certified Trainer</h3>
-  </div>
-  <p>Federally regulated, high-consequence operations under DOT/FMCSA oversight: HAZMAT-certified, zero-error standards, real liability. Certified to train and sign off new operators to a federal standard, with documented process and clear accountability when something went wrong. That is where my verification habit comes from, and it carries directly into how I build and run production AI.</p>
+  <p>Founder / owner-operator, built and run solo alongside full-time work: <a href="https://stafull.com">role-based fuel-delivery operations platform</a>, DTC premium grooming brand, independent investigative case work, <a href="https://angrynirds.com">AI-engineering services collective</a>. DOT/FMCSA-certified trainer, safety-critical regulated freight.</p>
 </div>
 
 <h2>Publications</h2>
-<div class="cert-row"><strong>&ldquo;Reference-Relative Believability&rdquo;</strong> &mdash; published research paper introducing a reference-relative method for evaluating the perceived believability of AI-generated media. <a href="https://doi.org/10.5281/zenodo.21138188">DOI 10.5281/zenodo.21138188</a> (Zenodo).</div>
+<div class="cert-row"><strong>&ldquo;Reference-Relative Believability&rdquo;</strong>, published research paper introducing a reference-relative method for evaluating the perceived believability of AI-generated media. <a href="https://doi.org/10.5281/zenodo.21138188">DOI 10.5281/zenodo.21138188</a> (Zenodo).</div>
 
 <h2>Education</h2>
-<p><strong>Capella University</strong> &mdash; B.S. Computer Science (in progress).</p>
+<p><strong>Capella University</strong>, B.S. Computer Science (in progress).</p>
 
 <h2>Certifications</h2>
-<div class="cert-row"><strong>Anthropic Academy</strong> &mdash; 15 courses complete (Building with Claude, Claude Code, Claude Code Skills, MCP &amp; MCP Advanced, Cowork, Bedrock, Vertex AI, AI Fluency suite, AI Capabilities &amp; Limitations)</div>
-<div class="cert-row"><strong>DeepLearning.AI</strong> &mdash; <a href="https://coursera.org/verify/0R23IDG6CLXE">Generative AI with Large Language Models</a> &nbsp;|&nbsp; <strong>Google</strong> &mdash; <a href="https://coursera.org/verify/ZOERXZLGW88M">AI Fundamentals</a> (Coursera-verifiable)</div>
-<div class="cert-row"><strong>Sophia Learning</strong> &mdash; 30 ACE college-credit courses, verified (<a href="https://www.credly.com/users/donald-havery">public Credly profile</a>) &mdash; CS foundations (Python, Java, web dev, SQL/databases, networking, statistics) through business and analytics</div>
+<div class="cert-row"><strong>Anthropic Academy</strong>, 15 courses complete (Claude, Claude Code, MCP, Cowork, Bedrock, Vertex AI, AI Fluency)</div>
+<div class="cert-row"><strong>DeepLearning.AI</strong>, <a href="https://coursera.org/verify/0R23IDG6CLXE">Generative AI with LLMs</a> &nbsp;|&nbsp; <strong>Google</strong>, <a href="https://coursera.org/verify/ZOERXZLGW88M">AI Fundamentals</a></div>
+<div class="cert-row"><strong>Sophia Learning</strong>, 30 verified ACE college-credit courses, <a href="https://www.credly.com/users/donald-havery">Credly profile</a></div>
 
 </body></html>
