@@ -18,9 +18,9 @@ You hire me **and the team of AI agents I build and run**. They come with me.
 
 **Describe a part in plain English and get a 3D-printable file**: a local agent writes the CAD, renders it, and a vision model checks and fixes its own work until the part is right. MIT. &nbsp;·&nbsp; `Python` `Ollama` `OpenSCAD` &nbsp;·&nbsp; [Text-to-CAD](https://github.com/dbhavery/textcad)
 
-**Every plane, ship, quake, and satellite on Earth on one live 3D globe**: 16 public feeds, streamed local-first; the real-time and front-end counterweight to the backend work. &nbsp;·&nbsp; `CesiumJS` `FastAPI` `WebSocket` &nbsp;·&nbsp; [Graticule](https://github.com/dbhavery/graticule)
+**Every plane, ship, quake, and satellite on Earth on one live 3D globe**: many public feeds, streamed local-first; the real-time and front-end counterweight to the backend work. &nbsp;·&nbsp; `CesiumJS` `FastAPI` `WebSocket` &nbsp;·&nbsp; [Graticule](https://github.com/dbhavery/graticule)
 
-Also private, with case studies on the site: a self-hosted photo + document library with semantic search (Albums) · an autonomous research-to-publish pipeline, 35 posts then parked (Wire) · an evening briefing that turns three dozen feeds into one email (Vesper) · push-to-talk dictation (Vox) · a keyboard launcher (Grid).
+Also private, with case studies on the site: a self-hosted photo + document library with semantic search (Albums) · an autonomous research-to-publish pipeline, since parked (Wire) · an evening briefing that turns three dozen feeds into one email (Vesper) · push-to-talk dictation (Vox) · a keyboard launcher (Grid).
 
 ---
 
@@ -33,9 +33,9 @@ Agent orchestration & tool use · RAG & vector search · voice pipelines (Whispe
 ### Education & certifications
 
 - **B.S. Computer Science**, Capella University (*in progress*)
-- **Anthropic Academy**: 15 courses (Claude Code · Skills · MCP & MCP Advanced · Building with Claude · Bedrock · Vertex AI · AI Fluency suite)
+- **Anthropic Academy**: courses (Claude Code · Skills · MCP & MCP Advanced · Building with Claude · Bedrock · Vertex AI · AI Fluency suite)
 - **DeepLearning.AI**: Generative AI with LLMs &nbsp;·&nbsp; **Google**: AI Fundamentals (Coursera-verifiable)
-- **Sophia Learning**: 30 ACE college-credit courses ([public Credly](https://www.credly.com/users/donald-havery))
+- **Sophia Learning**: ACE college-credit courses ([public Credly](https://www.credly.com/users/donald-havery))
 
 ---
 
