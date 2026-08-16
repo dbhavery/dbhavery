@@ -4,6 +4,8 @@
 
 I build production AI with an owner's judgment: agentic systems, retrieval, voice, and the evals that keep them honest. Designed, shipped, and run end to end on local-first infrastructure. I've also carried a P&L and led federally regulated, safety-critical operations, so I build software already knowing what it has to do for the business that depends on it.
 
+You hire me **and the team of AI agents I build and run**. They come with me.
+
 ---
 
 ### Selected work
