@@ -41,4 +41,4 @@ Agent orchestration & tool use · RAG & vector search · voice pipelines (Whispe
 
 ### Contact
 
-[dbhavery@gmail.com](mailto:dbhavery@gmail.com) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/dbhavery) &nbsp;·&nbsp; [dbhavery.dev](https://dbhavery.dev) &nbsp;·&nbsp; [Résumé (PDF)](https://dbhavery.dev/Donald_Havery_Resume.pdf)
+[dbhavery@gmail.com](mailto:dbhavery@gmail.com) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/dbhavery) &nbsp;·&nbsp; [dbhavery.dev](https://dbhavery.dev) &nbsp;·&nbsp; [Résumé (PDF)](https://dbhavery.dev/Donald_B_Havery_Resume.pdf)
