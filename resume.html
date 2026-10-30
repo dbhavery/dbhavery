@@ -16,12 +16,13 @@ h3 { font-size: 9.5pt; font-weight: 700; color: #1a1a1a; }
 h4 { font-size: 9pt; font-weight: 700; color: #333; margin-top: 4px; margin-bottom: 1px; break-after: avoid; }
 p { margin-bottom: 3px; }
 ul { margin-left: 14px; margin-bottom: 3px; }
-li { margin-bottom: 1.5px; }
+li { margin-bottom: 1.5px; break-inside: avoid; }
 .lead { margin-bottom: 4px; }
 .results li { margin-bottom: 2.5px; }
 .skills-grid { display: grid; grid-template-columns: 135px 1fr; gap: 2px 8px; }
 .skills-grid .label { font-weight: 600; font-size: 9pt; color: #333; }
 .skills-grid .value { font-size: 9pt; }
+.covers { grid-template-columns: 190px 1fr; margin-bottom: 2px; }
 .cert-row { font-size: 9pt; margin-bottom: 2px; }
 .exp-entry { margin-bottom: 5px; }
 .exp-header { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
@@ -34,11 +35,27 @@ a { color: inherit; text-decoration: underline; }
 <body>
 <h1>DONALD B. HAVERY</h1>
 <div class="role">Intelligence Manager</div>
-<div class="subtitle">AI Operations &middot; Head of AI &middot; Applied AI and Agent Engineering &middot; AI Cost Optimization and FinOps &middot; Forward Deployed Engineering</div>
+<div class="subtitle">One role that covers AI Operations &middot; Head of AI &middot; AI Platform and FinOps &middot; Forward Deployed Engineering &middot; AI Transformation &middot; AI Adoption &middot; AI Governance</div>
 <div class="contact">Portland, OR Metro Area | Remote preferred; hybrid in Portland or Seattle | <a href="mailto:dbhavery@gmail.com">dbhavery@gmail.com</a> | <a href="https://dbhavery.dev">dbhavery.dev</a> | <a href="https://github.com/dbhavery">github.com/dbhavery</a> | <a href="https://linkedin.com/in/dbhavery">linkedin.com/in/dbhavery</a></div>
 
 <h2>Summary</h2>
-<p class="lead">I am accountable for AI spend and for what it returns. I decide which work goes to a model, which goes to ordinary software, and which stays with a person. I lower what each result costs, build and ship the agents, put guardrails and human approval where the risk is, and report the results in numbers a finance team can check. I have run my businesses this way with full profit-and-loss responsibility, I supervised and trained drivers in regulated freight, and I build the systems myself in Python and TypeScript.</p>
+<p class="lead">An Intelligence Manager is one person accountable for a company&rsquo;s AI, from what it costs to what it returns. Most companies now hire for this work in pieces, under several titles, often before they know they need one owner for all of it. I do the whole job. I decide which work goes to a model, which goes to ordinary software, and which stays with a person. I lower what each result costs, build and ship the agents, put guardrails and human approval where the risk is, and report the results in numbers a finance team can check. I have run my businesses this way with full profit-and-loss responsibility, I supervised and trained drivers in regulated freight, and I build the systems myself in Python and TypeScript.</p>
+
+<h2>What the Role Covers</h2>
+<div class="skills-grid covers">
+  <span class="label">AI Operations</span>
+  <span class="value">Choose which workflows to automate, build the automation, and track workflows automated, test pass rates and cost per run.</span>
+  <span class="label">AI Platform and FinOps</span>
+  <span class="value">Model routing, caching, local models, token spend analysis, cost limits and budgets.</span>
+  <span class="label">Forward Deployed Engineering</span>
+  <span class="value">Work with the people who do the job, then build and ship agents connected to the business&rsquo;s data and systems.</span>
+  <span class="label">Head of AI and AI Transformation</span>
+  <span class="value">Set AI priorities, choose vendors and pricing models, and report the return on AI spend to leadership.</span>
+  <span class="label">AI Adoption</span>
+  <span class="value">Write the playbooks and train the people who use the tools, so a working use case spreads to other teams.</span>
+  <span class="label">AI Governance</span>
+  <span class="value">Guardrails, human approval, handoffs, audit trails, and license and data controls.</span>
+</div>
 
 <h2>Measured Results</h2>
 <ul class="results">
@@ -56,7 +73,7 @@ a { color: inherit; text-decoration: underline; }
     <span class="dates">Current</span>
   </div>
   <div class="meta">Own the AI budget, the model choices, the builds and the results for my businesses. Live site with Stripe checkout and a production customer-service agent.</div>
-  <div class="keep">
+  <div>
   <h4>Spend and efficiency</h4>
   <ul>
     <li>Set hard cost limits in production: an output-token cap, a chat-history cap (input tokens are billed), an 8-step limit per run, per-visitor and daily call limits, and a switch that keeps the agent off until it is turned on.</li>
@@ -64,7 +81,7 @@ a { color: inherit; text-decoration: underline; }
     <li>Built an agent run budget that prices the next call before making it and stops the run at its cost or step ceiling, and an LLM gateway with cross-provider failover, circuit breakers, rate limits and an exact-match response cache.</li>
   </ul>
   </div>
-  <div class="keep">
+  <div>
   <h4>Deciding what goes to an agent, to code, or to a person</h4>
   <ul>
     <li>Map each workflow with the people who run it, then decide which steps an agent takes, which steps code takes, and where a person approves.</li>
@@ -72,7 +89,7 @@ a { color: inherit; text-decoration: underline; }
     <li>The agent tells &ldquo;the answer was not found&rdquo; apart from &ldquo;the business has not decided this,&rdquo; so policy gaps go to the owner and are never guessed.</li>
   </ul>
   </div>
-  <div class="keep">
+  <div>
   <h4>Measurement and governance</h4>
   <ul>
     <li>Release gates: a 103-scenario live evaluation with an answer-rate floor of 0.8 that is never lowered without a written reason, and a CI gate that fails the build when LLM or RAG output regresses and refuses to accept an empty baseline.</li>
@@ -81,7 +98,7 @@ a { color: inherit; text-decoration: underline; }
     <li>Check every public claim against the code before it ships, and remove any claim that no measurement supports.</li>
   </ul>
   </div>
-  <div class="keep">
+  <div>
   <h4>Running AI agents as a team</h4>
   <ul>
     <li>Direct up to 17 concurrent AI agent sessions with shared written rules, a memory system, review hooks, and a gate that checks every paid generation job against an approved tool list before it runs.</li>
