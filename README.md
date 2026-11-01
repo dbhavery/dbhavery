@@ -1,44 +1,46 @@
 # Donald B. Havery
 
-**Applied AI Engineer**: production AI, end to end · [dbhavery.dev](https://dbhavery.dev)
+**Intelligence Manager** · [dbhavery.dev](https://dbhavery.dev)
 
-I build production AI with an owner's judgment: agentic systems, retrieval, voice, and the evals that keep them honest. Designed, shipped, and run end to end on local-first infrastructure. I've also carried a P&L and led federally regulated, safety-critical operations, so I build software already knowing what it has to do for the business that depends on it.
+Covers the roles companies post as **AI Operations, Head of AI, AI Platform and FinOps, Forward Deployed Engineering, AI Transformation and AI Governance**.
 
-You hire me **and the team of AI agents I build and run**. They come with me.
-
----
-
-### Selected work
-
-**A private AI assistant that runs entirely on your own machine**: non-bypassable policy gate, tamper-evident hash-chained + HMAC-sealed audit log. OSS preview, MIT. &nbsp;·&nbsp; `Rust` `Tauri` `SQLite` `Ollama` &nbsp;·&nbsp; [Companion, repo: aether](https://github.com/dbhavery/aether)
-
-**A test suite that catches an AI assistant's bad habits before users do**: 18 deterministic behavioral checks across six domains, adversarial tripwires that must fail, drift canaries; offline, standard-library only, exits 0/1 for CI. &nbsp;·&nbsp; `Python` &nbsp;·&nbsp; [eval harness](https://github.com/dbhavery/aether/tree/master/tools/evals)
-
-**A self-hosted platform that replaces five rented LLM services**: multi-provider gateway with circuit-breaker failover, a from-scratch HNSW vector engine in pure NumPy (no FAISS/pgvector), a ReAct agent runtime, ingestion, and cost/latency observability. MIT. &nbsp;·&nbsp; `Python` `FastAPI` `HNSW` &nbsp;·&nbsp; [Citadel](https://github.com/dbhavery/citadel) · [live demo](https://huggingface.co/spaces/dbhavery/citadel-explorer)
-
-**Describe a part in plain English and get a 3D-printable file**: a local agent writes the CAD, renders it, and a vision model checks and fixes its own work until the part is right. MIT. &nbsp;·&nbsp; `Python` `Ollama` `OpenSCAD` &nbsp;·&nbsp; [Text-to-CAD](https://github.com/dbhavery/textcad)
-
-**Every plane, ship, quake, and satellite on Earth on one live 3D globe**: many public feeds, streamed local-first; the real-time and front-end counterweight to the backend work. &nbsp;·&nbsp; `CesiumJS` `FastAPI` `WebSocket` &nbsp;·&nbsp; [Graticule](https://github.com/dbhavery/graticule)
-
-Also private, with case studies on the site: a self-hosted photo + document library with semantic search (Albums) · an autonomous research-to-publish pipeline, since parked (Wire) · an evening briefing that turns three dozen feeds into one email (Vesper) · push-to-talk dictation (Vox) · a keyboard launcher (Grid).
+My job is deciding which work goes to AI and which stays with a person. I build the agents and test them before release, then report cost per result in numbers a finance team can check.
 
 ---
 
-### Focus
+### Results
 
-Agent orchestration & tool use · RAG & vector search · voice pipelines (Whisper, TTS) · LLM gateways & provider failover · evals & observability · local-first / on-device inference · MCP &nbsp;·&nbsp; `Python` `TypeScript` `Rust` · `Next.js` `React`
-
----
-
-### Education & certifications
-
-- **B.S. Computer Science**, Capella University
-- **Anthropic Academy**: courses (Claude Code · Skills · MCP & MCP Advanced · Building with Claude · Bedrock · Vertex AI · AI Fluency suite)
-- **DeepLearning.AI**: Generative AI with LLMs &nbsp;·&nbsp; **Google**: AI Fundamentals (Coursera-verifiable)
-- **Sophia Learning**: ACE college-credit courses ([public Credly](https://www.credly.com/users/donald-havery))
+- **3 → 0** wrong answers on a 71-question test of my live customer-service agent ([angrynirds.com](https://angrynirds.com))
+- **21 of 23** handoffs to a person were business policy nobody had decided yet, so I listed them as open decisions
+- **103** scenarios in the release test; the build fails if answer quality drops
+- Cost limits in production: output-token cap, chat-history cap, 8-step limit per run, per-visitor and daily call limits, and an off switch
 
 ---
 
-### Contact
+### Public work
 
-[dbhavery@gmail.com](mailto:dbhavery@gmail.com) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/dbhavery) &nbsp;·&nbsp; [dbhavery.dev](https://dbhavery.dev) &nbsp;·&nbsp; [Résumé (PDF)](https://dbhavery.dev/Donald_B_Havery_Resume.pdf)
+- [eval-gate](https://github.com/dbhavery/eval-gate): fails the build when LLM or RAG output gets worse
+- [agent-harness](https://github.com/dbhavery/agent-harness): agent loop with retries, watchdogs, and cost and step ceilings
+- [citadel](https://github.com/dbhavery/citadel): LLM gateway that fails over between model providers, with circuit breakers and a response cache
+- [control-evidence-review](https://github.com/dbhavery/control-evidence-review): matches each policy control to its evidence; the reviewer decides
+- [graticule](https://github.com/dbhavery/graticule): weather, quakes, fires, aircraft and satellites on one 3D globe
+
+All work, with the problem each project solves: [dbhavery.dev/repositories](https://dbhavery.dev/repositories)
+
+---
+
+### Background
+
+- Founder, independent AI practice and angrynirds web and AI studio, 2023 to present
+- Line-haul driver, Old Dominion Freight Line, 2022 to present
+- Line driver and company-certified driver trainer, Peninsula Truck Lines, 2017 to 2021
+- Fuel tanker driver, Alpha Transport, 2012 to 2017
+
+### Education
+
+- **B.S. Computer Science**, Capella University, 2026 · **MBA**, Capella University, in progress
+- Anthropic Academy courses, IBM AI Product Manager certificate, DeepLearning.AI Generative AI with LLMs ([all credentials](https://dbhavery.dev/credentials))
+
+---
+
+[dbhavery@gmail.com](mailto:dbhavery@gmail.com) · [LinkedIn](https://www.linkedin.com/in/dbhavery) · [dbhavery.dev](https://dbhavery.dev) · [Résumé (PDF)](https://dbhavery.dev/Donald_B_Havery_Resume.pdf)
