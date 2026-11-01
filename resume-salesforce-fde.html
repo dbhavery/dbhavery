@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Donald B. Havery - Forward Deployed Engineer, Agentforce</title>
+<style>
+@page { size: letter; margin: 0.4in 0.55in; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', Calibri, Arial, sans-serif; font-size: 9.5pt; line-height: 1.25; color: #1a1a1a; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+h1 { font-size: 22pt; font-weight: 700; letter-spacing: -0.3px; color: #0a0a0a; margin-bottom: 2px; }
+.subtitle { font-size: 10.5pt; color: #2a2a2a; font-weight: 500; margin-bottom: 3px; }
+.contact { font-size: 9pt; color: #555; margin-bottom: 8px; }
+h2 { font-size: 10.5pt; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; color: #1a1a1a; border-bottom: 1.5px solid #1a1a1a; padding-bottom: 2px; margin-top: 7px; margin-bottom: 4px; break-after: avoid; page-break-after: avoid; }
+h3 { font-size: 9.5pt; font-weight: 700; color: #1a1a1a; margin-bottom: 1px; }
+.meta { font-size: 8.5pt; color: #555; margin-bottom: 2px; }
+p { margin-bottom: 3px; }
+ul { margin-left: 14px; margin-bottom: 4px; }
+li { margin-bottom: 1.5px; }
+.project { margin-bottom: 5px; break-inside: avoid; }
+.summary { margin-bottom: 4px; }
+.skills-grid { display: grid; grid-template-columns: 130px 1fr; gap: 2px 8px; margin-bottom: 2px; }
+.skills-grid .label { font-weight: 600; font-size: 9pt; color: #333; }
+.skills-grid .value { font-size: 9pt; }
+.cert-row { font-size: 9pt; margin-bottom: 2px; }
+.exp-entry { margin-bottom: 5px; break-inside: avoid; }
+.exp-header { display: flex; justify-content: space-between; align-items: baseline; }
+.exp-header .dates { font-size: 9pt; color: #555; white-space: nowrap; }
+a { color: inherit; text-decoration: underline; }
+</style>
+</head>
+<body>
+<h1>DONALD B. HAVERY</h1>
+<div class="subtitle">Applied AI Engineer, Forward-Deployed Focus &middot; Agentic AI in Production &middot; Evaluation &middot; RAG &middot; Tool Calling and MCP &middot; Python and TypeScript</div>
+<div class="contact">Portland, OR Metro Area, Washington resident (remote or Bellevue; 25-30% travel)  |  <a href="mailto:dbhavery@gmail.com">dbhavery@gmail.com</a>  |  <a href="https://github.com/dbhavery">github.com/dbhavery</a>  |  <a href="https://linkedin.com/in/dbhavery">linkedin.com/in/dbhavery</a>  |  <a href="https://dbhavery.dev">dbhavery.dev</a></div>
+
+<h2>Summary</h2>
+<p class="summary">I build agentic AI solutions that run inside a business and connect to its data. For each step of a workflow I decide what the agent handles, what ordinary code handles, and what goes to a person, and I evaluate AI outputs before anything ships. My production customer-service agent runs on a live small-business site with Stripe checkout. It quotes prices only through tool calls against the price book, and it hands any case it cannot close to a person with the reason and the transcript. I work in Python and TypeScript with LLMs, RAG pipelines, tool calling and MCP, and I build with Claude Code every day.</p>
+
+<h2>Production Systems</h2>
+<div class="project">
+  <h3><a href="https://angrynirds.com">Customer-service agent in production on a revenue-taking site</a></h3>
+  <ul>
+    <li>Answers customer questions from the business&rsquo;s knowledge base and quotes from the price book by tool call. The model never states a price without a tool call.</li>
+    <li>Every reply and every tool result passes the same guards before the customer sees it. A reply that contains a price with no tool call behind it is stopped and handed to a person.</li>
+    <li>Human in the loop by design: the agent hands off on customer request, low confidence, repeated failure, frustration, prompt-injection flags, guard violation, undecided business policy or model error, and each handoff carries the transcript tail and the customer&rsquo;s contact when given.</li>
+    <li>When a customer asks about a policy the business has not decided, the retrieval tool returns no answer and the case goes to a person. The rule is enforced in code, so the prompt cannot override it.</li>
+    <li>Next.js, TypeScript, Claude API, Stripe, Vercel. Built and run solo.</li>
+  </ul>
+</div>
+<div class="project">
+  <h3><a href="https://github.com/dbhavery/eval-gate">Release gate for LLM and RAG output</a></h3>
+  <div class="meta">Prompt assertions, retrieval precision and recall, citation grounding, comparison against a baseline. Exits non-zero on a regression, so a worse release fails CI. A mutation suite plants defects and confirms each one is caught. Python, MIT.</div>
+</div>
+<div class="project">
+  <h3><a href="https://github.com/dbhavery/agent-harness">Agent loop with failure handling</a></h3>
+  <div class="meta">Typed tool schemas, structured traces, bounded retry with backoff, a watchdog on every call, cost and step ceilings, an unsafe-action gate, and a six-class failure taxonomy. A recorded run shows a real hang cut off by the watchdog and a halt at the cost ceiling. Python, MIT.</div>
+</div>
+<div class="project">
+  <h3><a href="https://github.com/dbhavery/citadel">LLM gateway with provider failover</a></h3>
+  <div class="meta">OpenAI-compatible proxy with model routing, cross-provider failover behind circuit breakers, rate limiting, an exact-match response cache, token cost tracking, and an HNSW vector index written without a library. Python, MIT.</div>
+</div>
+<div class="project">
+  <h3><a href="https://github.com/dbhavery/control-evidence-review">Policy-control evidence review</a></h3>
+  <div class="meta">Maps control statements to supplied evidence and writes a verdict per control with the matched excerpt. Redacts secrets, keeps an append-only audit log, and leaves the decision with the reviewer. Python.</div>
+</div>
+<div class="project">
+  <h3>Also shipped</h3>
+  <div class="meta"><a href="https://huggingface.co/spaces/dbhavery/sentinel-compliance">Compliance gap analysis app</a> on Hugging Face Spaces that checks controls against SOC 2, GDPR and HIPAA and lists the gaps &middot; weather workstation on a 3D globe for desktop and Android &middot; <a href="https://truckingtutor.com">CDL training site</a> &middot; <a href="https://stafull.com">fuel-delivery operations platform</a> with dispatch, customer, driver, franchise and HQ roles &middot; <a href="https://github.com/dbhavery/textcad">self-correcting text-to-CAD loop</a></div>
+</div>
+
+<h2>Technical Skills</h2>
+<div class="skills-grid">
+  <span class="label">Agentic AI</span>
+  <span class="value">Tool calling, Model Context Protocol (MCP) servers, multi-step agent loops, human-in-the-loop handoff, output guards</span>
+  <span class="label">LLMs and Prompts</span>
+  <span class="value">Claude, Gemini, OpenAI-compatible APIs, Qwen and Ollama local serving; prompt engineering and failure analysis</span>
+  <span class="label">Evaluation</span>
+  <span class="value">Fixed test sets, regression gates in CI, retrieval precision and recall, citation grounding, mutation testing</span>
+  <span class="label">RAG and Data</span>
+  <span class="value">RAG pipelines, hybrid retrieval (BM25 + dense), vector search indexes, ChromaDB, Postgres, SQLite, Redis</span>
+  <span class="label">APIs and Integration</span>
+  <span class="value">REST APIs, FastAPI, Next.js API routes, Stripe checkout, data modeling</span>
+  <span class="label">Languages and Delivery</span>
+  <span class="value">Python, TypeScript / JavaScript, Rust (Tauri); Docker, Vercel, GitHub Actions; Claude Code (CLAUDE.md, hooks, subagents, skills)</span>
+</div>
+
+<h2>Experience</h2>
+<div class="exp-entry">
+  <div class="exp-header">
+    <h3>Applied AI Engineer, Independent</h3>
+    <span class="dates">Current</span>
+  </div>
+  <ul>
+    <li>Build, deploy and maintain AI agents and applications for my businesses, from mapping the workflow to production support.</li>
+    <li>Map each workflow before building: which steps an agent takes, which steps code takes, and where a person approves.</li>
+    <li>Ship with automated tests and an evaluation gate, and keep a written record of each failure and its fix.</li>
+  </ul>
+</div>
+<div class="exp-entry">
+  <div class="exp-header">
+    <h3>Line-Haul Driver, Old Dominion Freight Line</h3>
+    <span class="dates">Current</span>
+  </div>
+  <ul>
+    <li>Class A CDL with hazmat, tanker and triples endorsements. Company-certified driver trainer, certified through the carriers I have worked for. Daily work inside a freight operation run on dispatch and federal hours-of-service rules.</li>
+  </ul>
+</div>
+<div class="exp-entry">
+  <div class="exp-header">
+    <h3>Founder and Operator</h3>
+  </div>
+  <p><a href="https://angrynirds.com">angrynirds</a>, a web and AI studio for small business, live and taking payments, with the production agent above on its front desk &middot; <a href="https://truckingtutor.com">Trucking Tutor</a>, a live CDL training site &middot; a DTC grooming brand. Built and run alongside full-time work.</p>
+</div>
+
+<h2>Education</h2>
+<p><strong>Capella University</strong>, Master of Business Administration (in progress)  |  <strong>Capella University</strong>, B.S. Computer Science</p>
+
+<h2>Certifications and Research</h2>
+<div class="cert-row"><strong>Anthropic teaching certificate</strong>, Teaching the AI Fluency Framework, plus <strong>21 further Anthropic Academy certifications</strong> across Claude, Claude Code, MCP, and enterprise deployment on Bedrock and Vertex AI</div>
+<div class="cert-row"><strong>IBM</strong>, <a href="https://coursera.org/verify/professional-cert/G2VC0BQY55YQ">AI Product Manager Professional Certificate</a>  |  <strong>DeepLearning.AI</strong>, <a href="https://coursera.org/verify/0R23IDG6CLXE">Generative AI with LLMs</a></div>
+<div class="cert-row"><strong>&ldquo;Reference-Relative Believability&rdquo;</strong>, independent research paper on evaluating AI-generated media, archived on Zenodo. <a href="https://doi.org/10.5281/zenodo.21138188">DOI 10.5281/zenodo.21138188</a></div>
+
+</body></html>
