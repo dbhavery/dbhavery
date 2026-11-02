@@ -93,7 +93,7 @@ li { margin-bottom: 4px; padding-left: 2px; }
   <li><strong>Quality.</strong> On a 71-question test of my live customer-service agent, cut wrong answers from 3 to 0. Of the 23 cases still handed to a person, 21 were policy the business had not yet decided, so I listed them as open decisions for the business.</li>
   <li><strong>Risk.</strong> Took my production agent offline when it answered questions the business had not decided, and turned it back on only after each new guard was proven by a test that fails without it.</li>
   <li><strong>Model cost.</strong> Moved a grading step from a premium model to a lower-cost one only after the cheaper model passed a calibration set in which about half the answers are built to fail.</li>
-  <li><strong>Spend.</strong> Ran 58 days of daily agent work, 164,039 model calls, on one flat-rate plan that cost about $380. 96.5% of input came from the prompt cache. Source: Claude Code usage records.</li>
+  <li><strong>Prompt cache.</strong> 96.5% of model input served from the prompt cache, so repeated context is not paid for twice.</li>
 </ul>
 
 <h2>Systems I Built</h2>
