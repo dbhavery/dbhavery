@@ -2,28 +2,28 @@
 
 **Intelligence Manager** · [dbhavery.dev](https://dbhavery.dev)
 
-Covers the roles companies post as **AI Operations, Head of AI, AI Platform and FinOps, Forward Deployed Engineering, AI Transformation and AI Governance**.
+One role spanning the positions companies post as **AI Operations, Head of AI, AI Platform and FinOps, Forward Deployed Engineering, AI Transformation and AI Governance**.
 
-My job is deciding which work goes to AI and which stays with a person. I build the agents and test them before release, then report cost per result in numbers a finance team can check.
+I determine which work AI should handle and which remains with a person, build and evaluate the agents before release, and report cost per result in figures a finance team can audit.
 
 ---
 
 ### Results
 
-- **3 → 0** wrong answers on a 71-question test of my live customer-service agent ([angrynirds.com](https://angrynirds.com))
-- **21 of 23** handoffs to a person were business policy nobody had decided yet, so I listed them as open decisions
-- **103** scenarios in the release test; the build fails if answer quality drops
-- Cost limits in production: output-token cap, chat-history cap, 8-step limit per run, per-visitor and daily call limits, and an off switch
+- **3 → 0** incorrect answers on a 71-question evaluation of my production customer-service agent ([angrynirds.com](https://angrynirds.com))
+- **21 of 23** remaining handoffs traced to business policy that had not been set, so they were escalated as open decisions
+- **103** scenarios in the release evaluation; the build fails if answer quality falls below the floor
+- Cost limits in production: output-token cap, chat-history cap, 8-step limit per run, per-visitor and daily call limits, and a manual shutoff
 
 ---
 
 ### Public work
 
-- [eval-gate](https://github.com/dbhavery/eval-gate): fails the build when LLM or RAG output gets worse
+- [eval-gate](https://github.com/dbhavery/eval-gate): fails the build when LLM or RAG output quality regresses
 - [agent-harness](https://github.com/dbhavery/agent-harness): agent loop with retries, watchdogs, and cost and step ceilings
 - [citadel](https://github.com/dbhavery/citadel): LLM gateway that fails over between model providers, with circuit breakers and a response cache
-- [control-evidence-review](https://github.com/dbhavery/control-evidence-review): matches each policy control to its evidence; the reviewer decides
-- [graticule](https://github.com/dbhavery/graticule): weather, quakes, fires, aircraft and satellites on one 3D globe
+- [control-evidence-review](https://github.com/dbhavery/control-evidence-review): maps each policy control to its supporting evidence for reviewer sign-off
+- [graticule](https://github.com/dbhavery/graticule): weather, earthquakes, wildfires, aircraft and satellites on a single 3D globe
 
 All work, with the problem each project solves: [dbhavery.dev/repositories](https://dbhavery.dev/repositories)
 
