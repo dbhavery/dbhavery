@@ -7,8 +7,8 @@ from playwright.async_api import async_playwright
 HTML = Path(__file__).parent / "resume.html"
 OUTS = [
     Path(__file__).parent / "Donald_B_Havery_Resume.pdf",
-    # Live site since 2026-07-02 is the static build below (served at /Donald_B_Havery_Resume.pdf).
-    Path("C:/Users/dbhav/Documents/Codex/2026-06-24/c-users-dbhav-pictures-screenshots-snip/outputs/portfolio-page/Donald_B_Havery_Resume.pdf"),
+    # Live site since 2026-07-02 is the static build below (served at /Donald_B_Havery_Resume.pdf). Moved to D: by the 2026-11-02 disk cleanup.
+    Path("D:/_offload/Users/dbhav/Documents/Codex/2026-06-24/c-users-dbhav-pictures-screenshots-snip/outputs/portfolio-page/Donald_B_Havery_Resume.pdf"),
 ]
 
 async def main():
