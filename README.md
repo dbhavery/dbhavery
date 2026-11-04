@@ -32,7 +32,7 @@ Agent orchestration & tool use · RAG & vector search · voice pipelines (Whispe
 
 ### Education & certifications
 
-- **B.S. Computer Science**, Capella University
+- **B.S. Computer Science**, Capella University ([verify](https://degreeverification.capella.edu/content/capella/degreeverification/Verification_Page), CeDiD 268P-KA6P-D3YN)
 - **Anthropic Academy**: courses (Claude Code · Skills · MCP & MCP Advanced · Building with Claude · Bedrock · Vertex AI · AI Fluency suite)
 - **DeepLearning.AI**: Generative AI with LLMs &nbsp;·&nbsp; **Google**: AI Fundamentals (Coursera-verifiable)
 - **Sophia Learning**: ACE college-credit courses ([public Credly](https://www.credly.com/users/donald-havery))
