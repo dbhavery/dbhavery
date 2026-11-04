@@ -38,7 +38,7 @@ All work, with the problem each project solves: [dbhavery.dev/repositories](http
 
 ### Education
 
-- **B.S. Computer Science**, Capella University, 2026 · **MBA**, Capella University, in progress
+- **B.S. Computer Science**, Capella University ([verify](https://degreeverification.capella.edu/content/capella/degreeverification/Verification_Page), CeDiD 268P-KA6P-D3YN) · **MBA**, Capella University, in progress
 - Anthropic Academy courses, IBM AI Product Manager certificate, DeepLearning.AI Generative AI with LLMs ([all credentials](https://dbhavery.dev/credentials))
 
 ---
