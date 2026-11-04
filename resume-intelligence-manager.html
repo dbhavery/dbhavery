@@ -87,36 +87,36 @@ a { color: inherit; text-decoration: underline; }
     <h3>Intelligence Manager and Owner, Independent AI practice and <a href="https://angrynirds.com">angrynirds</a> web and AI studio</h3>
     <span class="dates">Current</span>
   </div>
-  <div class="meta">Accountable for the AI budget, model selection, system builds and results across my businesses, including a live site with Stripe checkout and a production customer-service agent.</div>
+  <div class="meta">Accountable for AI spend, model selection, system architecture, deployment and measured results across my businesses, including a live site with Stripe checkout and a production customer-service agent.</div>
   <div>
   <h4>Spend and efficiency</h4>
   <ul>
-    <li>Set hard cost limits in production: an output-token cap, a chat-history cap (input tokens are billed), an 8-step limit per run, per-visitor and daily call limits, and a switch that keeps the agent off until it is turned on.</li>
-    <li>Use the cheapest path that passes its tests: a flat-rate subscription before metered API calls, local open models before frontier ones, and a stored answer with no model call when retrieval confidence is high.</li>
-    <li>Built an agent run budget that prices the next call before making it and stops the run at its cost or step ceiling, and an LLM gateway with cross-provider failover, circuit breakers, rate limits and an exact-match response cache.</li>
+    <li>Implemented production cost governance: output-token and chat-history caps, an 8-step limit per run, per-visitor and daily call limits, and a manual shutoff.</li>
+    <li>Prioritized the lowest-cost path that passes evaluation: a flat-rate subscription before metered API calls, local open models before frontier models, and stored answers when retrieval confidence is high.</li>
+    <li>Built an agent run budget that prices each call before execution and stops the run at its cost or step ceiling, and an LLM gateway with cross-provider failover, circuit breakers, rate limits and an exact-match response cache.</li>
   </ul>
   </div>
   <div>
-  <h4>Deciding what goes to an agent, to code, or to a person</h4>
+  <h4>Workflow design and human oversight</h4>
   <ul>
-    <li>Map each workflow with the people who run it, then decide which steps an agent takes, which steps code takes, and where a person approves.</li>
-    <li>Every agent hands off to a person with a reason code and the transcript. In evaluation, a correct handoff scores as a pass and an unneeded one as a miss.</li>
-    <li>The agent distinguishes &ldquo;the answer was not found&rdquo; from &ldquo;the business has not decided this,&rdquo; so policy gaps are escalated to the owner and never guessed.</li>
+    <li>Mapped each workflow with the people who run it, and assigned each step to an agent, to conventional code or to a person for approval.</li>
+    <li>Designed reason-coded handoffs that pass the transcript to a person, scored in evaluation so a correct handoff counts as a pass and an unneeded one as a miss.</li>
+    <li>Separated &ldquo;the answer was not found&rdquo; from &ldquo;the business has not decided this&rdquo; in the agent&rsquo;s retrieval, so policy gaps are escalated to the owner and never guessed.</li>
   </ul>
   </div>
   <div>
   <h4>Measurement and governance</h4>
   <ul>
-    <li>Release gates: a 103-scenario live evaluation with an answer-rate floor of 0.8 that is never lowered without a written reason, and a CI gate that fails the build when LLM or RAG output regresses and refuses to accept an empty baseline.</li>
-    <li>Decision-support tools leave the decision with a person: in my compliance tools, a model may add a reviewer note but cannot change a verdict.</li>
-    <li>Kept outputs of a model whose license excludes the United States out of every published or client-facing work product.</li>
-    <li>Check every public claim against the code before it ships, and remove any claim that no measurement supports.</li>
+    <li>Established a 103-scenario live evaluation with an answer-rate floor of 0.8 that is never lowered without a written reason, and a CI gate that fails the build on LLM or RAG regression and rejects an empty baseline.</li>
+    <li>Kept final decisions with a person in compliance tooling, where a model may add a reviewer note but cannot change a verdict.</li>
+    <li>Enforced model license terms by keeping outputs of a model whose license excludes the United States out of every published or client-facing work product.</li>
+    <li>Verified every public claim against the code before release, and removed any claim that no measurement supports.</li>
   </ul>
   </div>
   <div>
-  <h4>Running AI agents as a team</h4>
+  <h4>Multi-agent operations</h4>
   <ul>
-    <li>Direct up to 17 concurrent AI agent sessions with shared written rules, a memory system, review hooks, and a gate that checks every paid generation job against an approved tool list before it runs.</li>
+    <li>Direct up to 17 concurrent AI agent sessions under shared written rules, a memory system, review hooks and a pre-run gate that checks every paid generation job against an approved tool list.</li>
   </ul>
   </div>
 </div>
@@ -127,8 +127,8 @@ a { color: inherit; text-decoration: underline; }
     <h3>Founder and Operator, small businesses</h3>
   </div>
   <ul>
-    <li>Premium grooming brand with full profit-and-loss responsibility, from formulation and small-batch manufacturing to marketing, fulfillment and customer service.</li>
-    <li>Fuel-delivery operations platform (franchise economics and a nine-role operating platform, pre-launch), an investigations practice, and a <a href="https://truckingtutor.com">CDL training site</a>.</li>
+    <li>Built and operated a direct-to-consumer grooming brand with full profit-and-loss responsibility, covering formulation, small-batch manufacturing, packaging, marketing, fulfillment and customer service.</li>
+    <li>Designed the franchise economics and a nine-role operating platform for a fuel-delivery business (pre-launch), operated an investigations practice, and built <a href="https://truckingtutor.com">Trucking Tutor</a>, a CDL training site.</li>
   </ul>
 </div>
 
@@ -137,8 +137,8 @@ a { color: inherit; text-decoration: underline; }
     <h3>Supervisor and Trainer Roles; Freight Operations</h3>
   </div>
   <ul>
-    <li>Held supervisor and trainer roles at several employers, including company-certified driver trainer with authority to sign off new operators to drive unsupervised.</li>
-    <li>Currently a line-haul driver at Old Dominion Freight Line. Class A CDL with hazmat, tanker and triples endorsements, in an operation run on dispatch and federal hours-of-service limits.</li>
+    <li>Line-haul driver, Old Dominion Freight Line (current). Operate Class A combination vehicles with hazmat, tanker and triples endorsements on multi-stop relay routes under federal hours-of-service rules.</li>
+    <li>Held supervisor and trainer roles at several employers. As a company-certified driver trainer at Peninsula Truck Lines, assessed skills, delivered road instruction and held authority to sign off new operators to drive unsupervised.</li>
   </ul>
 </div>
 
