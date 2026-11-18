@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { width: 1200px; height: 628px; background: #111; font-family: 'Segoe UI', system-ui, sans-serif; overflow: hidden; position: relative; }
+.bg { position: absolute; inset: 0; background: radial-gradient(ellipse at 20% 50%, #1a2a3d 0%, #111 70%); }
+.content { position: relative; z-index: 1; display: flex; height: 100%; }
+.left { width: 520px; display: flex; flex-direction: column; justify-content: center; padding: 50px 0 50px 70px; }
+.right { flex: 1; display: flex; flex-direction: column; justify-content: center; padding: 50px 60px 50px 40px; }
+.hero { font-size: 110px; font-weight: 900; color: #fff; letter-spacing: -3px; line-height: 0.95; }
+.hero span { display: block; font-size: 38px; font-weight: 400; color: #4fc3f7; letter-spacing: 6px; margin-top: 8px; text-transform: uppercase; }
+.stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px 40px; }
+.stat { }
+.stat-val { font-size: 36px; font-weight: 800; color: #fff; line-height: 1.1; }
+.stat-label { font-size: 15px; color: #888; font-weight: 400; margin-top: 2px; }
+.tags { margin-top: 36px; display: flex; flex-wrap: wrap; gap: 8px; }
+.tag { font-size: 13px; color: #4fc3f7; border: 1px solid #2a4a5f; border-radius: 20px; padding: 5px 14px; font-weight: 500; }
+.url { position: absolute; bottom: 24px; right: 50px; font-size: 15px; color: #555; z-index: 1; }
+.divider { width: 1px; background: linear-gradient(to bottom, transparent, #333, transparent); align-self: stretch; margin: 60px 0; }
+</style>
+</head>
+<body>
+<div class="bg"></div>
+<div class="content">
+  <div class="left">
+    <div class="hero">
+      GitHub
+      <span>dbhavery</span>
+    </div>
+  </div>
+  <div class="divider"></div>
+  <div class="right">
+    <div class="stat-grid">
+      <div class="stat">
+        <div class="stat-val">42</div>
+        <div class="stat-label">Repositories</div>
+      </div>
+      <div class="stat">
+        <div class="stat-val">900K+</div>
+        <div class="stat-label">Lines of Code</div>
+      </div>
+      <div class="stat">
+        <div class="stat-val">1,500+</div>
+        <div class="stat-label">Commits</div>
+      </div>
+      <div class="stat">
+        <div class="stat-val">550+</div>
+        <div class="stat-label">Automated Tests</div>
+      </div>
+    </div>
+    <div class="tags">
+      <span class="tag">Agent Harness Design</span>
+      <span class="tag">Multi-Agent Orchestration</span>
+      <span class="tag">Context Engineering</span>
+      <span class="tag">Memory Systems</span>
+      <span class="tag">Voice Pipelines</span>
+      <span class="tag">Semantic Search</span>
+    </div>
+  </div>
+</div>
+<div class="url">github.com/dbhavery</div>
+</body>
+</html>
